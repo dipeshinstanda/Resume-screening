@@ -1,0 +1,3446 @@
+{
+  "description": "test split from Synthetic dataset for AI Resume Screening System",
+  "split": "test",
+  "created_date": "2026-04-12T17:28:49.522393",
+  "total_cases": 91,
+  "positive_cases": 16,
+  "negative_cases": 75,
+  "test_cases": [
+    {
+      "id": 235,
+      "resume_id": "resume_000235",
+      "job_id": "job_0236",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Finance",
+          "institution": "University of Maryland",
+          "year": "2006"
+        },
+        {
+          "degree": "Doctorate",
+          "field": "Mathematics",
+          "institution": "University of Maryland",
+          "year": "2012"
+        }
+      ],
+      "candidate_skills": [
+        "MongoDB",
+        "NLP",
+        "Data Analysis",
+        "Python"
+      ],
+      "job_requirements": [
+        "PhD in Data Science",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "PyTorch",
+        "JavaScript",
+        "Go",
+        "SQL",
+        "NoSQL"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 160,
+      "resume_id": "resume_000160",
+      "job_id": "job_0161",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Computer Science",
+          "institution": "Penn State",
+          "year": "2010"
+        },
+        {
+          "degree": "Bachelors",
+          "field": "Data Science",
+          "institution": "University of Michigan",
+          "year": "2021"
+        }
+      ],
+      "candidate_skills": [
+        "Agile",
+        "Scrum",
+        "Git",
+        "CI/CD",
+        "Debugging"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "Scrum",
+        "Testing",
+        "Git",
+        "Agile"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 314,
+      "resume_id": "resume_000314",
+      "job_id": "job_0315",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Psychology",
+          "institution": "Local Institute",
+          "year": "2024"
+        }
+      ],
+      "candidate_skills": [
+        "Testing",
+        "CI/CD",
+        "Debugging",
+        "Agile",
+        "Scrum",
+        "Git"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "CI/CD",
+        "Testing",
+        "Git"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 405,
+      "resume_id": "resume_000405",
+      "job_id": "job_0406",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Mechanical Engineering",
+          "institution": "Local Institute",
+          "year": "2021"
+        }
+      ],
+      "candidate_skills": [
+        "CI/CD",
+        "Debugging",
+        "Testing",
+        "Git",
+        "Scrum",
+        "Agile"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "Testing",
+        "Scrum",
+        "Git",
+        "Agile"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 214,
+      "resume_id": "resume_000214",
+      "job_id": "job_0215",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Information Technology",
+          "institution": "Online University",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "Angular",
+        "Flask",
+        "Node.js",
+        "React",
+        "Ruby",
+        "Django"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science"
+      ],
+      "job_skills": [
+        "Go",
+        "C++",
+        "HTML",
+        "Angular",
+        "Node.js"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 365,
+      "resume_id": "resume_000365",
+      "job_id": "job_0366",
+      "candidate_education": [
+        {
+          "degree": "BTech",
+          "field": "Software Engineering",
+          "institution": "UCLA",
+          "year": "2024"
+        }
+      ],
+      "candidate_skills": [
+        "CSS",
+        "Vue.js",
+        "Java"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science"
+      ],
+      "job_skills": [
+        "HTML",
+        "React",
+        "Vue.js",
+        "Flask"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 481,
+      "resume_id": "resume_000481",
+      "job_id": "job_0482",
+      "candidate_education": [
+        {
+          "degree": "Associate",
+          "field": "Chemistry",
+          "institution": "Regional University",
+          "year": "2024"
+        }
+      ],
+      "candidate_skills": [
+        "Vue.js",
+        "Ruby",
+        "Flask",
+        "C++",
+        "HTML"
+      ],
+      "job_requirements": [
+        "Masters in Information Technology"
+      ],
+      "job_skills": [
+        "Django",
+        "Go",
+        "Angular",
+        "Python",
+        "Ruby"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 532,
+      "resume_id": "resume_000532",
+      "job_id": "job_0533",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Mechanical Engineering",
+          "institution": "Cornell University",
+          "year": "2007"
+        },
+        {
+          "degree": "Masters",
+          "field": "Computer Science",
+          "institution": "UC Berkeley",
+          "year": "2013"
+        }
+      ],
+      "candidate_skills": [
+        "Rust",
+        "Python",
+        "Node.js",
+        "Ruby"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science"
+      ],
+      "job_skills": [
+        "JavaScript",
+        "Angular",
+        "C#"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier1",
+      "is_match": true,
+      "expected_score_min": 0.8,
+      "expected_score_max": 1.0,
+      "difficulty": "easy"
+    },
+    {
+      "id": 315,
+      "resume_id": "resume_000315",
+      "job_id": "job_0316",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Psychology",
+          "institution": "City College",
+          "year": "2021"
+        }
+      ],
+      "candidate_skills": [
+        "CSS",
+        "Node.js",
+        "Ruby"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science"
+      ],
+      "job_skills": [
+        "CSS",
+        "Node.js",
+        "Java"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 286,
+      "resume_id": "resume_000286",
+      "job_id": "job_0287",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Physics",
+          "institution": "NYU",
+          "year": "2006"
+        },
+        {
+          "degree": "Associate",
+          "field": "Mathematics",
+          "institution": "City College",
+          "year": "2019"
+        }
+      ],
+      "candidate_skills": [
+        "CSS",
+        "Node.js",
+        "Vue.js",
+        "Ruby",
+        "JavaScript",
+        "Go",
+        "Rust"
+      ],
+      "job_requirements": [
+        "Bachelors in any Engineering"
+      ],
+      "job_skills": [
+        "C#",
+        "JavaScript",
+        "C++",
+        "Flask"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 582,
+      "resume_id": "resume_000582",
+      "job_id": "job_0583",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Biology",
+          "institution": "State University",
+          "year": "2005"
+        },
+        {
+          "degree": "MBA",
+          "field": "Computer Science",
+          "institution": "University of Washington",
+          "year": "2017"
+        }
+      ],
+      "candidate_skills": [
+        "C++",
+        "Tableau",
+        "SQL",
+        "PostgreSQL"
+      ],
+      "job_requirements": [
+        "Masters in Computer Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Tableau",
+        "PowerBI",
+        "Java",
+        "JavaScript",
+        "PostgreSQL"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": true,
+      "expected_score_min": 0.8,
+      "expected_score_max": 1.0,
+      "difficulty": "easy"
+    },
+    {
+      "id": 595,
+      "resume_id": "resume_000595",
+      "job_id": "job_0596",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Software Engineering",
+          "institution": "Online University",
+          "year": "2009"
+        },
+        {
+          "degree": "BTech",
+          "field": "Biology",
+          "institution": "City College",
+          "year": "2023"
+        }
+      ],
+      "candidate_skills": [
+        "SQL",
+        "PyTorch",
+        "TensorFlow",
+        "Python",
+        "MongoDB",
+        "Java",
+        "NLP"
+      ],
+      "job_requirements": [
+        "Masters in Software Engineering",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "NoSQL",
+        "Java",
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier3",
+      "is_match": true,
+      "expected_score_min": 0.75,
+      "expected_score_max": 1.0,
+      "difficulty": "hard"
+    },
+    {
+      "id": 228,
+      "resume_id": "resume_000228",
+      "job_id": "job_0229",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "English Literature",
+          "institution": "City College",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "C#",
+        "Angular",
+        "HTML",
+        "Ruby",
+        "Django",
+        "Go",
+        "JavaScript"
+      ],
+      "job_requirements": [
+        "Masters in Software Engineering"
+      ],
+      "job_skills": [
+        "Vue.js",
+        "C++",
+        "Django"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 209,
+      "resume_id": "resume_000209",
+      "job_id": "job_0210",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Mechanical Engineering",
+          "institution": "City College",
+          "year": "2011"
+        }
+      ],
+      "candidate_skills": [
+        "CI/CD",
+        "Scrum",
+        "Git",
+        "Agile",
+        "Debugging",
+        "Testing"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "CI/CD",
+        "Git",
+        "Testing",
+        "Debugging"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 536,
+      "resume_id": "resume_000536",
+      "job_id": "job_0537",
+      "candidate_education": [
+        {
+          "degree": "MBA",
+          "field": "Artificial Intelligence",
+          "institution": "Purdue University",
+          "year": "2013"
+        }
+      ],
+      "candidate_skills": [
+        "Keras",
+        "Data Analysis",
+        "Ruby",
+        "SQL",
+        "Tableau",
+        "C#",
+        "Computer Vision"
+      ],
+      "job_requirements": [
+        "Masters in Artificial Intelligence",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "Python",
+        "Tableau",
+        "Java",
+        "PostgreSQL"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier2",
+      "is_match": true,
+      "expected_score_min": 0.75,
+      "expected_score_max": 1.0,
+      "difficulty": "hard"
+    },
+    {
+      "id": 489,
+      "resume_id": "resume_000489",
+      "job_id": "job_0490",
+      "candidate_education": [
+        {
+          "degree": "Associate",
+          "field": "Psychology",
+          "institution": "State University",
+          "year": "2019"
+        }
+      ],
+      "candidate_skills": [
+        "CI/CD",
+        "Agile",
+        "Debugging",
+        "Testing",
+        "Scrum",
+        "Git"
+      ],
+      "job_requirements": [
+        "Bachelors in any field"
+      ],
+      "job_skills": [
+        "Agile",
+        "Debugging",
+        "Testing",
+        "Scrum"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 279,
+      "resume_id": "resume_000279",
+      "job_id": "job_0280",
+      "candidate_education": [
+        {
+          "degree": "BTech",
+          "field": "Computer Science",
+          "institution": "University of Washington",
+          "year": "2013"
+        }
+      ],
+      "candidate_skills": [
+        "Java",
+        "Rust",
+        "C#"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Python",
+        "Scikit-learn",
+        "C++",
+        "PyTorch"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": true,
+      "expected_score_min": 0.75,
+      "expected_score_max": 1.0,
+      "difficulty": "hard"
+    },
+    {
+      "id": 462,
+      "resume_id": "resume_000462",
+      "job_id": "job_0463",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Electrical Engineering",
+          "institution": "Local Institute",
+          "year": "2017"
+        }
+      ],
+      "candidate_skills": [
+        "C#",
+        "NoSQL",
+        "TensorFlow",
+        "Ruby",
+        "PostgreSQL",
+        "Python"
+      ],
+      "job_requirements": [
+        "Masters in Artificial Intelligence",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "C++",
+        "Ruby",
+        "PyTorch",
+        "PowerBI",
+        "NLP"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 576,
+      "resume_id": "resume_000576",
+      "job_id": "job_0577",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Mathematics",
+          "institution": "Boston University",
+          "year": "2013"
+        },
+        {
+          "degree": "Masters",
+          "field": "Information Technology",
+          "institution": "Cornell University",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "C++",
+        "Flask",
+        "Python",
+        "JavaScript"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "C#",
+        "Rust",
+        "Python",
+        "Go"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": true,
+      "expected_score_min": 0.8,
+      "expected_score_max": 1.0,
+      "difficulty": "easy"
+    },
+    {
+      "id": 71,
+      "resume_id": "resume_000071",
+      "job_id": "job_0072",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Electrical Engineering",
+          "institution": "University of Maryland",
+          "year": "2012"
+        },
+        {
+          "degree": "Diploma",
+          "field": "Information Technology",
+          "institution": "Tech University",
+          "year": "2016"
+        }
+      ],
+      "candidate_skills": [
+        "Flask",
+        "Angular",
+        "Go",
+        "React"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "Django",
+        "Flask",
+        "C#"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier3",
+      "is_match": true,
+      "expected_score_min": 0.5,
+      "expected_score_max": 0.75,
+      "difficulty": "hard"
+    },
+    {
+      "id": 473,
+      "resume_id": "resume_000473",
+      "job_id": "job_0474",
+      "candidate_education": [
+        {
+          "degree": "MBA",
+          "field": "Psychology",
+          "institution": "Stanford University",
+          "year": "2022"
+        }
+      ],
+      "candidate_skills": [
+        "React",
+        "Go",
+        "Rust",
+        "C#"
+      ],
+      "job_requirements": [
+        "Bachelors in Software Engineering"
+      ],
+      "job_skills": [
+        "Angular",
+        "Go",
+        "React",
+        "CSS"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier1",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 460,
+      "resume_id": "resume_000460",
+      "job_id": "job_0461",
+      "candidate_education": [
+        {
+          "degree": "BTech",
+          "field": "Business Administration",
+          "institution": "Online University",
+          "year": "2024"
+        }
+      ],
+      "candidate_skills": [
+        "Agile",
+        "Debugging",
+        "Scrum"
+      ],
+      "job_requirements": [
+        "Bachelors in any field"
+      ],
+      "job_skills": [
+        "Testing",
+        "Scrum",
+        "Git",
+        "Debugging",
+        "CI/CD"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 385,
+      "resume_id": "resume_000385",
+      "job_id": "job_0386",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Electrical Engineering",
+          "institution": "Online University",
+          "year": "2019"
+        }
+      ],
+      "candidate_skills": [
+        "Git",
+        "Agile",
+        "CI/CD"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "Agile",
+        "Git",
+        "CI/CD",
+        "Testing",
+        "Debugging"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 6,
+      "resume_id": "resume_000006",
+      "job_id": "job_0007",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Finance",
+          "institution": "Local Institute",
+          "year": "2011"
+        }
+      ],
+      "candidate_skills": [
+        "Tableau",
+        "JavaScript",
+        "NLP",
+        "Data Analysis",
+        "SQL",
+        "TensorFlow"
+      ],
+      "job_requirements": [
+        "PhD in Artificial Intelligence",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "Python",
+        "C++",
+        "PostgreSQL",
+        "TensorFlow",
+        "Scikit-learn"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 25,
+      "resume_id": "resume_000025",
+      "job_id": "job_0026",
+      "candidate_education": [
+        {
+          "degree": "PhD",
+          "field": "Software Engineering",
+          "institution": "Penn State",
+          "year": "2019"
+        }
+      ],
+      "candidate_skills": [
+        "Go",
+        "NLP",
+        "NoSQL",
+        "Tableau",
+        "Rust",
+        "C#",
+        "Scikit-learn"
+      ],
+      "job_requirements": [
+        "Doctorate in Mathematics",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "Python",
+        "C++",
+        "Computer Vision",
+        "Rust",
+        "Ruby"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 277,
+      "resume_id": "resume_000277",
+      "job_id": "job_0278",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "Data Science",
+          "institution": "UC Berkeley",
+          "year": "2018"
+        }
+      ],
+      "candidate_skills": [
+        "Go",
+        "NoSQL",
+        "NLP",
+        "PowerBI",
+        "MongoDB",
+        "Rust",
+        "C++"
+      ],
+      "job_requirements": [
+        "Masters in Data Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "TensorFlow",
+        "Computer Vision",
+        "Scikit-learn"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier1",
+      "is_match": true,
+      "expected_score_min": 0.8,
+      "expected_score_max": 1.0,
+      "difficulty": "easy"
+    },
+    {
+      "id": 49,
+      "resume_id": "resume_000049",
+      "job_id": "job_0050",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Biology",
+          "institution": "University of Maryland",
+          "year": "2017"
+        },
+        {
+          "degree": "Diploma",
+          "field": "Business Administration",
+          "institution": "Community College",
+          "year": "2023"
+        }
+      ],
+      "candidate_skills": [
+        "NoSQL",
+        "NLP",
+        "Tableau",
+        "C#",
+        "PowerBI"
+      ],
+      "job_requirements": [
+        "MBA in Computer Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "C#",
+        "MongoDB",
+        "Data Analysis"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 521,
+      "resume_id": "resume_000521",
+      "job_id": "job_0522",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Finance",
+          "institution": "Cornell University",
+          "year": "2005"
+        },
+        {
+          "degree": "Masters",
+          "field": "Finance",
+          "institution": "UCLA",
+          "year": "2012"
+        }
+      ],
+      "candidate_skills": [
+        "Java",
+        "Rust",
+        "Go",
+        "PostgreSQL",
+        "C++"
+      ],
+      "job_requirements": [
+        "MBA in Software Engineering",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "PowerBI",
+        "Keras",
+        "Tableau"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 72,
+      "resume_id": "resume_000072",
+      "job_id": "job_0073",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Finance",
+          "institution": "Purdue University",
+          "year": "2011"
+        },
+        {
+          "degree": "Diploma",
+          "field": "Software Engineering",
+          "institution": "Community College",
+          "year": "2022"
+        }
+      ],
+      "candidate_skills": [
+        "C++",
+        "JavaScript",
+        "C#",
+        "CSS"
+      ],
+      "job_requirements": [
+        "Masters in Software Engineering"
+      ],
+      "job_skills": [
+        "C#",
+        "Django",
+        "HTML"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier3",
+      "is_match": true,
+      "expected_score_min": 0.5,
+      "expected_score_max": 0.75,
+      "difficulty": "hard"
+    },
+    {
+      "id": 386,
+      "resume_id": "resume_000386",
+      "job_id": "job_0387",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "Artificial Intelligence",
+          "institution": "University of Washington",
+          "year": "2018"
+        }
+      ],
+      "candidate_skills": [
+        "SQL",
+        "NoSQL",
+        "C#",
+        "TensorFlow",
+        "Ruby"
+      ],
+      "job_requirements": [
+        "Bachelors in Data Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Data Analysis",
+        "Scikit-learn",
+        "PyTorch",
+        "Go",
+        "JavaScript"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 412,
+      "resume_id": "resume_000412",
+      "job_id": "job_0413",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Electrical Engineering",
+          "institution": "City College",
+          "year": "2012"
+        }
+      ],
+      "candidate_skills": [
+        "CI/CD",
+        "Debugging",
+        "Testing",
+        "Agile"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "Debugging",
+        "Scrum",
+        "Git",
+        "Agile",
+        "CI/CD"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 352,
+      "resume_id": "resume_000352",
+      "job_id": "job_0353",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "English Literature",
+          "institution": "Boston University",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "Python",
+        "C#",
+        "Ruby",
+        "Flask",
+        "HTML"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "JavaScript",
+        "C++",
+        "Node.js",
+        "Rust"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 245,
+      "resume_id": "resume_000245",
+      "job_id": "job_0246",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "English Literature",
+          "institution": "Yale University",
+          "year": "2023"
+        }
+      ],
+      "candidate_skills": [
+        "CSS",
+        "Django",
+        "C++",
+        "HTML",
+        "Ruby",
+        "Rust",
+        "Vue.js"
+      ],
+      "job_requirements": [
+        "Masters in Information Technology"
+      ],
+      "job_skills": [
+        "Python",
+        "Rust",
+        "Java",
+        "C#",
+        "Flask"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier1",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 135,
+      "resume_id": "resume_000135",
+      "job_id": "job_0136",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Artificial Intelligence",
+          "institution": "Regional University",
+          "year": "2011"
+        },
+        {
+          "degree": "BSc",
+          "field": "Information Technology",
+          "institution": "Regional University",
+          "year": "2017"
+        }
+      ],
+      "candidate_skills": [
+        "React",
+        "C++",
+        "Node.js",
+        "Vue.js",
+        "Rust"
+      ],
+      "job_requirements": [
+        "Masters in Computer Science"
+      ],
+      "job_skills": [
+        "Go",
+        "Rust",
+        "Java",
+        "JavaScript",
+        "C#"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 478,
+      "resume_id": "resume_000478",
+      "job_id": "job_0479",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Computer Science",
+          "institution": "Engineering College",
+          "year": "2023"
+        }
+      ],
+      "candidate_skills": [
+        "Computer Vision",
+        "PyTorch",
+        "PowerBI",
+        "Ruby",
+        "PostgreSQL",
+        "Keras",
+        "JavaScript"
+      ],
+      "job_requirements": [
+        "PhD in Mathematics",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "C#",
+        "Go",
+        "NoSQL",
+        "Ruby",
+        "MongoDB"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 504,
+      "resume_id": "resume_000504",
+      "job_id": "job_0505",
+      "candidate_education": [
+        {
+          "degree": "PhD",
+          "field": "Information Technology",
+          "institution": "University of Illinois",
+          "year": "2022"
+        }
+      ],
+      "candidate_skills": [
+        "Rust",
+        "JavaScript",
+        "Ruby"
+      ],
+      "job_requirements": [
+        "Masters in Computer Science",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "Java",
+        "JavaScript",
+        "PyTorch",
+        "PostgreSQL",
+        "NoSQL"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 401,
+      "resume_id": "resume_000401",
+      "job_id": "job_0402",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "Electrical Engineering",
+          "institution": "University of Maryland",
+          "year": "2021"
+        }
+      ],
+      "candidate_skills": [
+        "Go",
+        "JavaScript",
+        "Java",
+        "Node.js"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "React",
+        "Flask",
+        "Vue.js",
+        "Java",
+        "Go"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 184,
+      "resume_id": "resume_000184",
+      "job_id": "job_0185",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "Finance",
+          "institution": "Technical Institute",
+          "year": "2022"
+        }
+      ],
+      "candidate_skills": [
+        "Agile",
+        "Debugging",
+        "Testing",
+        "Git",
+        "Scrum",
+        "CI/CD"
+      ],
+      "job_requirements": [
+        "Bachelors in any field"
+      ],
+      "job_skills": [
+        "Git",
+        "CI/CD",
+        "Agile",
+        "Scrum"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 232,
+      "resume_id": "resume_000232",
+      "job_id": "job_0233",
+      "candidate_education": [
+        {
+          "degree": "Doctorate",
+          "field": "Finance",
+          "institution": "NYU",
+          "year": "2016"
+        }
+      ],
+      "candidate_skills": [
+        "C++",
+        "Node.js",
+        "React",
+        "Vue.js",
+        "C#"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science"
+      ],
+      "job_skills": [
+        "React",
+        "Angular",
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 499,
+      "resume_id": "resume_000499",
+      "job_id": "job_0500",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Mathematics",
+          "institution": "Tech University",
+          "year": "2009"
+        },
+        {
+          "degree": "Doctorate",
+          "field": "Mathematics",
+          "institution": "Caltech",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "Django",
+        "Rust",
+        "Java",
+        "C#"
+      ],
+      "job_requirements": [
+        "Masters in Software Engineering"
+      ],
+      "job_skills": [
+        "Flask",
+        "Node.js",
+        "JavaScript",
+        "React",
+        "C++"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier1",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 400,
+      "resume_id": "resume_000400",
+      "job_id": "job_0401",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Mechanical Engineering",
+          "institution": "Tech University",
+          "year": "2012"
+        },
+        {
+          "degree": "Bachelors",
+          "field": "English Literature",
+          "institution": "State University",
+          "year": "2018"
+        }
+      ],
+      "candidate_skills": [
+        "Testing",
+        "Git",
+        "Debugging",
+        "CI/CD",
+        "Agile"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "Agile",
+        "CI/CD",
+        "Git"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 229,
+      "resume_id": "resume_000229",
+      "job_id": "job_0230",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Biology",
+          "institution": "Local Institute",
+          "year": "2012"
+        },
+        {
+          "degree": "MBA",
+          "field": "Information Technology",
+          "institution": "IIT Bombay",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "C++",
+        "JavaScript",
+        "Vue.js",
+        "Angular",
+        "Java",
+        "C#"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "Go",
+        "C#",
+        "Node.js"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier1",
+      "is_match": true,
+      "expected_score_min": 0.8,
+      "expected_score_max": 1.0,
+      "difficulty": "easy"
+    },
+    {
+      "id": 321,
+      "resume_id": "resume_000321",
+      "job_id": "job_0322",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Finance",
+          "institution": "State University",
+          "year": "2009"
+        },
+        {
+          "degree": "Bachelors",
+          "field": "Mechanical Engineering",
+          "institution": "Online University",
+          "year": "2017"
+        }
+      ],
+      "candidate_skills": [
+        "Java",
+        "CSS",
+        "React",
+        "Vue.js",
+        "Ruby"
+      ],
+      "job_requirements": [
+        "Bachelors in any Engineering"
+      ],
+      "job_skills": [
+        "React",
+        "Ruby",
+        "C#",
+        "Flask"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 76,
+      "resume_id": "resume_000076",
+      "job_id": "job_0077",
+      "candidate_education": [
+        {
+          "degree": "MBA",
+          "field": "Information Technology",
+          "institution": "Cornell University",
+          "year": "2021"
+        }
+      ],
+      "candidate_skills": [
+        "Testing",
+        "Agile",
+        "Scrum"
+      ],
+      "job_requirements": [
+        "Bachelors in any field"
+      ],
+      "job_skills": [
+        "Debugging",
+        "CI/CD",
+        "Agile",
+        "Scrum"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 345,
+      "resume_id": "resume_000345",
+      "job_id": "job_0346",
+      "candidate_education": [
+        {
+          "degree": "MBA",
+          "field": "Business Administration",
+          "institution": "Purdue University",
+          "year": "2018"
+        }
+      ],
+      "candidate_skills": [
+        "Node.js",
+        "Django",
+        "Vue.js",
+        "CSS",
+        "Java",
+        "C++",
+        "Rust"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "JavaScript",
+        "Go",
+        "CSS"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 468,
+      "resume_id": "resume_000468",
+      "job_id": "job_0469",
+      "candidate_education": [
+        {
+          "degree": "PhD",
+          "field": "Information Technology",
+          "institution": "University of Washington",
+          "year": "2021"
+        }
+      ],
+      "candidate_skills": [
+        "C#",
+        "Keras",
+        "NoSQL"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Go",
+        "C#",
+        "NLP",
+        "PowerBI"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 117,
+      "resume_id": "resume_000117",
+      "job_id": "job_0118",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Finance",
+          "institution": "Technical Institute",
+          "year": "2006"
+        },
+        {
+          "degree": "Bachelors",
+          "field": "Physics",
+          "institution": "Community College",
+          "year": "2011"
+        }
+      ],
+      "candidate_skills": [
+        "SQL",
+        "PostgreSQL",
+        "Computer Vision",
+        "Tableau",
+        "NLP"
+      ],
+      "job_requirements": [
+        "Masters in Computer Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Rust",
+        "SQL",
+        "Keras"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 247,
+      "resume_id": "resume_000247",
+      "job_id": "job_0248",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "English Literature",
+          "institution": "Regional University",
+          "year": "2012"
+        }
+      ],
+      "candidate_skills": [
+        "Rust",
+        "TensorFlow",
+        "Go",
+        "PowerBI"
+      ],
+      "job_requirements": [
+        "MBA in Software Engineering",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Rust",
+        "Tableau",
+        "Keras"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 387,
+      "resume_id": "resume_000387",
+      "job_id": "job_0388",
+      "candidate_education": [
+        {
+          "degree": "BTech",
+          "field": "English Literature",
+          "institution": "Online University",
+          "year": "2023"
+        }
+      ],
+      "candidate_skills": [
+        "PowerBI",
+        "Tableau",
+        "Rust",
+        "JavaScript",
+        "SQL",
+        "Go",
+        "C#"
+      ],
+      "job_requirements": [
+        "Masters in Computer Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Ruby",
+        "Java",
+        "NLP",
+        "Computer Vision",
+        "TensorFlow"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 84,
+      "resume_id": "resume_000084",
+      "job_id": "job_0085",
+      "candidate_education": [
+        {
+          "degree": "BSc",
+          "field": "Software Engineering",
+          "institution": "Online University",
+          "year": "2012"
+        }
+      ],
+      "candidate_skills": [
+        "MongoDB",
+        "PostgreSQL",
+        "PowerBI"
+      ],
+      "job_requirements": [
+        "Masters in Data Science",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "PostgreSQL",
+        "Python",
+        "NLP",
+        "NoSQL",
+        "Java"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 145,
+      "resume_id": "resume_000145",
+      "job_id": "job_0146",
+      "candidate_education": [
+        {
+          "degree": "BTech",
+          "field": "Mechanical Engineering",
+          "institution": "University of Maryland",
+          "year": "2012"
+        }
+      ],
+      "candidate_skills": [
+        "Ruby",
+        "React",
+        "JavaScript",
+        "Rust",
+        "C#",
+        "Flask",
+        "Vue.js"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "HTML",
+        "Angular",
+        "Python",
+        "Ruby"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 587,
+      "resume_id": "resume_000587",
+      "job_id": "job_0588",
+      "candidate_education": [
+        {
+          "degree": "Associate",
+          "field": "Software Engineering",
+          "institution": "City College",
+          "year": "2012"
+        }
+      ],
+      "candidate_skills": [
+        "Data Analysis",
+        "C++",
+        "NLP",
+        "Rust"
+      ],
+      "job_requirements": [
+        "MBA in Software Engineering",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "PowerBI",
+        "Java",
+        "PyTorch",
+        "Computer Vision"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier3",
+      "is_match": true,
+      "expected_score_min": 0.5,
+      "expected_score_max": 0.75,
+      "difficulty": "hard"
+    },
+    {
+      "id": 86,
+      "resume_id": "resume_000086",
+      "job_id": "job_0087",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Software Engineering",
+          "institution": "NYU",
+          "year": "2007"
+        },
+        {
+          "degree": "MBA",
+          "field": "Computer Science",
+          "institution": "Cambridge University",
+          "year": "2013"
+        }
+      ],
+      "candidate_skills": [
+        "Git",
+        "Agile",
+        "Scrum",
+        "Testing",
+        "Debugging"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "Scrum",
+        "Debugging",
+        "Git",
+        "Agile",
+        "Testing"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier1",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 299,
+      "resume_id": "resume_000299",
+      "job_id": "job_0300",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Business Administration",
+          "institution": "Engineering College",
+          "year": "2020"
+        }
+      ],
+      "candidate_skills": [
+        "Debugging",
+        "Git",
+        "Scrum",
+        "CI/CD",
+        "Agile",
+        "Testing"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "Testing",
+        "Scrum",
+        "Debugging"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 62,
+      "resume_id": "resume_000062",
+      "job_id": "job_0063",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Business Administration",
+          "institution": "Local Institute",
+          "year": "2022"
+        }
+      ],
+      "candidate_skills": [
+        "Agile",
+        "Testing",
+        "Git",
+        "Scrum",
+        "Debugging",
+        "CI/CD"
+      ],
+      "job_requirements": [
+        "Bachelors in any field"
+      ],
+      "job_skills": [
+        "Git",
+        "Debugging",
+        "CI/CD",
+        "Agile",
+        "Scrum"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 388,
+      "resume_id": "resume_000388",
+      "job_id": "job_0389",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Finance",
+          "institution": "Local Institute",
+          "year": "2008"
+        },
+        {
+          "degree": "Masters",
+          "field": "Artificial Intelligence",
+          "institution": "University of Maryland",
+          "year": "2011"
+        }
+      ],
+      "candidate_skills": [
+        "TensorFlow",
+        "PyTorch",
+        "NoSQL",
+        "NLP"
+      ],
+      "job_requirements": [
+        "PhD in Artificial Intelligence",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "Computer Vision",
+        "Go",
+        "Tableau"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier2",
+      "is_match": true,
+      "expected_score_min": 0.75,
+      "expected_score_max": 1.0,
+      "difficulty": "hard"
+    },
+    {
+      "id": 555,
+      "resume_id": "resume_000555",
+      "job_id": "job_0556",
+      "candidate_education": [
+        {
+          "degree": "BSc",
+          "field": "Information Technology",
+          "institution": "Community College",
+          "year": "2018"
+        }
+      ],
+      "candidate_skills": [
+        "Java",
+        "Ruby",
+        "JavaScript",
+        "Angular"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "HTML",
+        "Go",
+        "Vue.js"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": true,
+      "expected_score_min": 0.75,
+      "expected_score_max": 1.0,
+      "difficulty": "hard"
+    },
+    {
+      "id": 366,
+      "resume_id": "resume_000366",
+      "job_id": "job_0367",
+      "candidate_education": [
+        {
+          "degree": "MBA",
+          "field": "Mechanical Engineering",
+          "institution": "NUS Singapore",
+          "year": "2019"
+        }
+      ],
+      "candidate_skills": [
+        "Scikit-learn",
+        "Go",
+        "NLP",
+        "C++"
+      ],
+      "job_requirements": [
+        "Masters in Business Administration",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Computer Vision",
+        "NoSQL",
+        "TensorFlow"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 529,
+      "resume_id": "resume_000529",
+      "job_id": "job_0530",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Finance",
+          "institution": "Online University",
+          "year": "2017"
+        },
+        {
+          "degree": "BSc",
+          "field": "Information Technology",
+          "institution": "Purdue University",
+          "year": "2022"
+        }
+      ],
+      "candidate_skills": [
+        "Vue.js",
+        "React",
+        "Java",
+        "Angular",
+        "C++",
+        "JavaScript",
+        "C#"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "C#",
+        "Flask",
+        "Go",
+        "React",
+        "Rust"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": true,
+      "expected_score_min": 0.75,
+      "expected_score_max": 1.0,
+      "difficulty": "hard"
+    },
+    {
+      "id": 77,
+      "resume_id": "resume_000077",
+      "job_id": "job_0078",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Information Technology",
+          "institution": "Technical Institute",
+          "year": "2016"
+        }
+      ],
+      "candidate_skills": [
+        "JavaScript",
+        "Vue.js",
+        "HTML",
+        "Go",
+        "React",
+        "Ruby",
+        "Python"
+      ],
+      "job_requirements": [
+        "Bachelors in Software Engineering"
+      ],
+      "job_skills": [
+        "Angular",
+        "JavaScript",
+        "C++",
+        "Ruby"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 269,
+      "resume_id": "resume_000269",
+      "job_id": "job_0270",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Physics",
+          "institution": "Local Institute",
+          "year": "2018"
+        }
+      ],
+      "candidate_skills": [
+        "Agile",
+        "Testing",
+        "Git",
+        "CI/CD",
+        "Scrum"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "CI/CD",
+        "Git",
+        "Debugging",
+        "Scrum",
+        "Testing"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 338,
+      "resume_id": "resume_000338",
+      "job_id": "job_0339",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Biology",
+          "institution": "Boston University",
+          "year": "2010"
+        },
+        {
+          "degree": "Diploma",
+          "field": "Artificial Intelligence",
+          "institution": "Online University",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "Java",
+        "Node.js",
+        "Angular",
+        "Python"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "C#",
+        "Java",
+        "Flask",
+        "Rust"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 490,
+      "resume_id": "resume_000490",
+      "job_id": "job_0491",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "English Literature",
+          "institution": "Engineering College",
+          "year": "2023"
+        }
+      ],
+      "candidate_skills": [
+        "Python",
+        "React",
+        "Go",
+        "Ruby"
+      ],
+      "job_requirements": [
+        "Bachelors in any Engineering"
+      ],
+      "job_skills": [
+        "CSS",
+        "Ruby",
+        "Django",
+        "Go"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 346,
+      "resume_id": "resume_000346",
+      "job_id": "job_0347",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Artificial Intelligence",
+          "institution": "Engineering College",
+          "year": "2008"
+        },
+        {
+          "degree": "Masters",
+          "field": "Data Science",
+          "institution": "University of Texas",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "Debugging",
+        "Testing",
+        "Agile",
+        "CI/CD",
+        "Scrum",
+        "Git"
+      ],
+      "job_requirements": [
+        "Bachelors in any field"
+      ],
+      "job_skills": [
+        "Debugging",
+        "Git",
+        "Scrum",
+        "Testing"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 306,
+      "resume_id": "resume_000306",
+      "job_id": "job_0307",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Chemistry",
+          "institution": "Penn State",
+          "year": "2009"
+        },
+        {
+          "degree": "Diploma",
+          "field": "Information Technology",
+          "institution": "Community College",
+          "year": "2023"
+        }
+      ],
+      "candidate_skills": [
+        "SQL",
+        "PyTorch",
+        "PowerBI"
+      ],
+      "job_requirements": [
+        "Masters in Mathematics",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "Rust",
+        "PowerBI",
+        "C#",
+        "TensorFlow"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 121,
+      "resume_id": "resume_000121",
+      "job_id": "job_0122",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Software Engineering",
+          "institution": "City College",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "Computer Vision",
+        "PowerBI",
+        "PostgreSQL",
+        "MongoDB",
+        "C#",
+        "NLP",
+        "C++"
+      ],
+      "job_requirements": [
+        "MBA in Computer Science",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Go",
+        "Scikit-learn",
+        "JavaScript",
+        "SQL"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 252,
+      "resume_id": "resume_000252",
+      "job_id": "job_0253",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Mechanical Engineering",
+          "institution": "Penn State",
+          "year": "2012"
+        }
+      ],
+      "candidate_skills": [
+        "Scrum",
+        "Testing",
+        "Git",
+        "Agile",
+        "CI/CD"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "Agile",
+        "Git",
+        "Debugging",
+        "CI/CD",
+        "Scrum"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 570,
+      "resume_id": "resume_000570",
+      "job_id": "job_0571",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Finance",
+          "institution": "University of Michigan",
+          "year": "2009"
+        },
+        {
+          "degree": "MBA",
+          "field": "Software Engineering",
+          "institution": "NUS Singapore",
+          "year": "2019"
+        }
+      ],
+      "candidate_skills": [
+        "Node.js",
+        "C++",
+        "JavaScript",
+        "HTML"
+      ],
+      "job_requirements": [
+        "Masters in Software Engineering"
+      ],
+      "job_skills": [
+        "Flask",
+        "Java",
+        "React",
+        "Ruby"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier2",
+      "is_match": true,
+      "expected_score_min": 0.8,
+      "expected_score_max": 1.0,
+      "difficulty": "easy"
+    },
+    {
+      "id": 60,
+      "resume_id": "resume_000060",
+      "job_id": "job_0061",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Computer Science",
+          "institution": "Community College",
+          "year": "2013"
+        }
+      ],
+      "candidate_skills": [
+        "Agile",
+        "Testing",
+        "Debugging",
+        "Git",
+        "CI/CD",
+        "Scrum"
+      ],
+      "job_requirements": [
+        "Bachelors in any field"
+      ],
+      "job_skills": [
+        "Git",
+        "Scrum",
+        "Agile",
+        "Debugging",
+        "CI/CD"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 403,
+      "resume_id": "resume_000403",
+      "job_id": "job_0404",
+      "candidate_education": [
+        {
+          "degree": "Doctorate",
+          "field": "Psychology",
+          "institution": "MIT",
+          "year": "2013"
+        }
+      ],
+      "candidate_skills": [
+        "PowerBI",
+        "PostgreSQL",
+        "Go",
+        "JavaScript",
+        "PyTorch",
+        "SQL"
+      ],
+      "job_requirements": [
+        "Bachelors in Software Engineering",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "NoSQL",
+        "Computer Vision",
+        "Python"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier1",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 87,
+      "resume_id": "resume_000087",
+      "job_id": "job_0088",
+      "candidate_education": [
+        {
+          "degree": "BTech",
+          "field": "Electrical Engineering",
+          "institution": "University of Texas",
+          "year": "2017"
+        }
+      ],
+      "candidate_skills": [
+        "JavaScript",
+        "Go",
+        "Angular",
+        "CSS",
+        "React",
+        "C#"
+      ],
+      "job_requirements": [
+        "Masters in Computer Science"
+      ],
+      "job_skills": [
+        "C++",
+        "Java",
+        "Ruby",
+        "Vue.js"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 290,
+      "resume_id": "resume_000290",
+      "job_id": "job_0291",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Business Administration",
+          "institution": "Tech University",
+          "year": "2009"
+        },
+        {
+          "degree": "Bachelors",
+          "field": "Biology",
+          "institution": "Tech University",
+          "year": "2011"
+        }
+      ],
+      "candidate_skills": [
+        "Django",
+        "Python",
+        "CSS",
+        "JavaScript",
+        "Ruby",
+        "Angular",
+        "Flask"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "C#",
+        "JavaScript",
+        "Django"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 61,
+      "resume_id": "resume_000061",
+      "job_id": "job_0062",
+      "candidate_education": [
+        {
+          "degree": "PhD",
+          "field": "Artificial Intelligence",
+          "institution": "University of Michigan",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "Ruby",
+        "TensorFlow",
+        "Java"
+      ],
+      "job_requirements": [
+        "Bachelors in Business Administration",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Computer Vision",
+        "MongoDB",
+        "C++"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 476,
+      "resume_id": "resume_000476",
+      "job_id": "job_0477",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Mathematics",
+          "institution": "Engineering College",
+          "year": "2009"
+        },
+        {
+          "degree": "Masters",
+          "field": "Biology",
+          "institution": "Boston University",
+          "year": "2020"
+        }
+      ],
+      "candidate_skills": [
+        "C++",
+        "JavaScript",
+        "NLP"
+      ],
+      "job_requirements": [
+        "Bachelors in Software Engineering",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Data Analysis",
+        "JavaScript",
+        "MongoDB",
+        "Go"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 274,
+      "resume_id": "resume_000274",
+      "job_id": "job_0275",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Information Technology",
+          "institution": "Community College",
+          "year": "2024"
+        }
+      ],
+      "candidate_skills": [
+        "Data Analysis",
+        "NLP",
+        "PowerBI"
+      ],
+      "job_requirements": [
+        "MBA in Business Administration",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "JavaScript",
+        "Scikit-learn",
+        "NoSQL"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 425,
+      "resume_id": "resume_000425",
+      "job_id": "job_0426",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Information Technology",
+          "institution": "University of Texas",
+          "year": "2009"
+        },
+        {
+          "degree": "Masters",
+          "field": "Finance",
+          "institution": "Engineering College",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "Vue.js",
+        "JavaScript",
+        "Python",
+        "Node.js",
+        "Flask",
+        "C#",
+        "Go"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science"
+      ],
+      "job_skills": [
+        "Vue.js",
+        "JavaScript",
+        "Go"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 291,
+      "resume_id": "resume_000291",
+      "job_id": "job_0292",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Mechanical Engineering",
+          "institution": "Regional University",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "C++",
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "job_requirements": [
+        "Bachelors in any Engineering"
+      ],
+      "job_skills": [
+        "React",
+        "Python",
+        "Rust"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 303,
+      "resume_id": "resume_000303",
+      "job_id": "job_0304",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Business Administration",
+          "institution": "UCLA",
+          "year": "2021"
+        },
+        {
+          "degree": "PhD",
+          "field": "Physics",
+          "institution": "University of Maryland",
+          "year": "2023"
+        }
+      ],
+      "candidate_skills": [
+        "Go",
+        "Ruby",
+        "C++",
+        "Flask",
+        "C#"
+      ],
+      "job_requirements": [
+        "Bachelors in Software Engineering"
+      ],
+      "job_skills": [
+        "Vue.js",
+        "Django",
+        "Rust",
+        "CSS"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 207,
+      "resume_id": "resume_000207",
+      "job_id": "job_0208",
+      "candidate_education": [
+        {
+          "degree": "MBA",
+          "field": "Computer Science",
+          "institution": "Stanford University",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "Data Analysis",
+        "Rust",
+        "Scikit-learn",
+        "MongoDB",
+        "PostgreSQL",
+        "C++",
+        "Go"
+      ],
+      "job_requirements": [
+        "Masters in Physics",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "Rust",
+        "NoSQL",
+        "Keras",
+        "NLP",
+        "C#"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier1",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 34,
+      "resume_id": "resume_000034",
+      "job_id": "job_0035",
+      "candidate_education": [
+        {
+          "degree": "MBA",
+          "field": "Data Science",
+          "institution": "UC Berkeley",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "React",
+        "Angular",
+        "Django",
+        "CSS"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "HTML",
+        "Go",
+        "Flask",
+        "Node.js"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier1",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 195,
+      "resume_id": "resume_000195",
+      "job_id": "job_0196",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Information Technology",
+          "institution": "Tech University",
+          "year": "2012"
+        },
+        {
+          "degree": "Masters",
+          "field": "Mechanical Engineering",
+          "institution": "NYU",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "Tableau",
+        "JavaScript",
+        "NoSQL",
+        "Go",
+        "MongoDB",
+        "C++",
+        "Computer Vision"
+      ],
+      "job_requirements": [
+        "Masters in Physics",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "NLP",
+        "MongoDB",
+        "PyTorch",
+        "Computer Vision",
+        "Java"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 143,
+      "resume_id": "resume_000143",
+      "job_id": "job_0144",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Software Engineering",
+          "institution": "Cornell University",
+          "year": "2006"
+        },
+        {
+          "degree": "Bachelors",
+          "field": "Business Administration",
+          "institution": "Online University",
+          "year": "2016"
+        }
+      ],
+      "candidate_skills": [
+        "Scrum",
+        "Agile",
+        "CI/CD",
+        "Git",
+        "Testing"
+      ],
+      "job_requirements": [
+        "Bachelors in any field"
+      ],
+      "job_skills": [
+        "CI/CD",
+        "Testing",
+        "Scrum",
+        "Debugging",
+        "Agile"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 266,
+      "resume_id": "resume_000266",
+      "job_id": "job_0267",
+      "candidate_education": [
+        {
+          "degree": "BSc",
+          "field": "English Literature",
+          "institution": "University of Michigan",
+          "year": "2017"
+        }
+      ],
+      "candidate_skills": [
+        "Testing",
+        "Agile",
+        "Scrum",
+        "Debugging"
+      ],
+      "job_requirements": [
+        "Diploma in any field"
+      ],
+      "job_skills": [
+        "CI/CD",
+        "Scrum",
+        "Agile",
+        "Git",
+        "Testing"
+      ],
+      "job_type": "entry",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 2,
+      "resume_id": "resume_000002",
+      "job_id": "job_0003",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "Mathematics",
+          "institution": "State University",
+          "year": "2007"
+        },
+        {
+          "degree": "Bachelors",
+          "field": "Biology",
+          "institution": "Technical Institute",
+          "year": "2016"
+        }
+      ],
+      "candidate_skills": [
+        "Go",
+        "Django",
+        "Ruby",
+        "Java"
+      ],
+      "job_requirements": [
+        "Bachelors in Information Technology"
+      ],
+      "job_skills": [
+        "Django",
+        "Java",
+        "Ruby"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 216,
+      "resume_id": "resume_000216",
+      "job_id": "job_0217",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Chemistry",
+          "institution": "Cornell University",
+          "year": "2007"
+        },
+        {
+          "degree": "Doctorate",
+          "field": "Computer Science",
+          "institution": "Boston University",
+          "year": "2010"
+        }
+      ],
+      "candidate_skills": [
+        "PostgreSQL",
+        "Java",
+        "Keras",
+        "SQL"
+      ],
+      "job_requirements": [
+        "Masters in Business Administration",
+        "5+ years experience"
+      ],
+      "job_skills": [
+        "Tableau",
+        "PostgreSQL",
+        "Rust"
+      ],
+      "job_type": "senior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 171,
+      "resume_id": "resume_000171",
+      "job_id": "job_0172",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Computer Science",
+          "institution": "Tech University",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "Rust",
+        "Vue.js",
+        "Django",
+        "React",
+        "Python",
+        "Go",
+        "Ruby"
+      ],
+      "job_requirements": [
+        "Bachelors in any Engineering"
+      ],
+      "job_skills": [
+        "CSS",
+        "Ruby",
+        "Angular",
+        "React"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 144,
+      "resume_id": "resume_000144",
+      "job_id": "job_0145",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Mathematics",
+          "institution": "Tech University",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "JavaScript",
+        "Vue.js",
+        "CSS",
+        "Ruby",
+        "Java"
+      ],
+      "job_requirements": [
+        "Bachelors in any Engineering"
+      ],
+      "job_skills": [
+        "Angular",
+        "Java",
+        "JavaScript"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier3",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 79,
+      "resume_id": "resume_000079",
+      "job_id": "job_0080",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Business Administration",
+          "institution": "University of Maryland",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "Angular",
+        "Django",
+        "HTML",
+        "Rust"
+      ],
+      "job_requirements": [
+        "Bachelors in any Engineering"
+      ],
+      "job_skills": [
+        "Node.js",
+        "Vue.js",
+        "Angular"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 137,
+      "resume_id": "resume_000137",
+      "job_id": "job_0138",
+      "candidate_education": [
+        {
+          "degree": "BTech",
+          "field": "Mathematics",
+          "institution": "University of Washington",
+          "year": "2015"
+        }
+      ],
+      "candidate_skills": [
+        "Go",
+        "Angular",
+        "React",
+        "JavaScript",
+        "Vue.js",
+        "Flask",
+        "Python"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science"
+      ],
+      "job_skills": [
+        "HTML",
+        "Node.js",
+        "C++",
+        "Rust",
+        "C#"
+      ],
+      "job_type": "junior",
+      "institution_tier": "tier2",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 484,
+      "resume_id": "resume_000484",
+      "job_id": "job_0485",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Finance",
+          "institution": "University of Texas",
+          "year": "2012"
+        },
+        {
+          "degree": "Masters",
+          "field": "Mathematics",
+          "institution": "Oxford University",
+          "year": "2021"
+        }
+      ],
+      "candidate_skills": [
+        "Ruby",
+        "SQL",
+        "C++",
+        "NoSQL",
+        "Rust",
+        "MongoDB"
+      ],
+      "job_requirements": [
+        "Doctorate in Physics",
+        "Research experience required",
+        "Publications preferred"
+      ],
+      "job_skills": [
+        "Ruby",
+        "JavaScript",
+        "C++"
+      ],
+      "job_type": "research",
+      "institution_tier": "tier1",
+      "is_match": false,
+      "expected_score_min": 0.0,
+      "expected_score_max": 0.4,
+      "difficulty": "hard"
+    },
+    {
+      "id": 597,
+      "resume_id": "resume_000597",
+      "job_id": "job_0598",
+      "candidate_education": [
+        {
+          "degree": "BSc",
+          "field": "Computer Science",
+          "institution": "Online University",
+          "year": "2014"
+        }
+      ],
+      "candidate_skills": [
+        "HTML",
+        "Angular",
+        "Python",
+        "Ruby",
+        "Node.js"
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science"
+      ],
+      "job_skills": [
+        "C++",
+        "Angular",
+        "Node.js",
+        "Java"
+      ],
+      "job_type": "mid",
+      "institution_tier": "tier3",
+      "is_match": true,
+      "expected_score_min": 0.75,
+      "expected_score_max": 1.0,
+      "difficulty": "hard"
+    }
+  ]
+}

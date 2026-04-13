@@ -1,0 +1,25 @@
+{
+  "name": "ai-resume-screening-system",
+  "version": "1.0.0",
+  "description": "AI-Based Resume Screening System by EmpowerTech Solutions",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && pip install -r requirements.txt",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && python main.py",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "AI",
+    "Resume",
+    "Screening",
+    "Machine Learning",
+    "React"
+  ],
+  "author": "EmpowerTech Solutions",
+  "license": "UNLICENSED"
+}

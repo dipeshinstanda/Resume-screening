@@ -1,0 +1,415 @@
+{
+  "description": "Ground truth dataset for evaluation of AI Resume Screening System",
+  "created_date": "2024",
+  "total_cases": 20,
+  "test_cases": [
+    {
+      "id": 1,
+      "resume_id": "test_resume_1",
+      "job_id": "test_job_1",
+      "candidate_education": [
+        {
+          "degree": "PhD",
+          "field": "Computer Science",
+          "institution": "MIT",
+          "year": "2020"
+        }
+      ],
+      "job_requirements": [
+        "PhD in Computer Science or related field",
+        "Machine Learning expertise"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.8,
+      "notes": "Perfect match - PhD CS from top institution"
+    },
+    {
+      "id": 2,
+      "resume_id": "test_resume_2",
+      "job_id": "test_job_1",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Computer Science",
+          "institution": "State University",
+          "year": "2021"
+        }
+      ],
+      "job_requirements": [
+        "PhD in Computer Science or related field",
+        "Machine Learning expertise"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.6,
+      "notes": "Insufficient education level - Bachelors vs PhD requirement"
+    },
+    {
+      "id": 3,
+      "resume_id": "test_resume_3",
+      "job_id": "test_job_2",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "Data Science",
+          "institution": "Stanford University",
+          "year": "2022"
+        }
+      ],
+      "job_requirements": [
+        "Masters degree in Data Science, Statistics, or Computer Science"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.85,
+      "notes": "Exact match - Masters in Data Science"
+    },
+    {
+      "id": 4,
+      "resume_id": "test_resume_4",
+      "job_id": "test_job_2",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Business Administration",
+          "institution": "Local College",
+          "year": "2019"
+        }
+      ],
+      "job_requirements": [
+        "Masters degree in Data Science, Statistics, or Computer Science"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.4,
+      "notes": "Wrong field and insufficient degree level"
+    },
+    {
+      "id": 5,
+      "resume_id": "test_resume_5",
+      "job_id": "test_job_3",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Software Engineering",
+          "institution": "Tech University",
+          "year": "2020"
+        }
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science, Software Engineering, or related field"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.75,
+      "notes": "Good match - Bachelors in related field"
+    },
+    {
+      "id": 6,
+      "resume_id": "test_resume_6",
+      "job_id": "test_job_3",
+      "candidate_education": [
+        {
+          "degree": "High School",
+          "field": "",
+          "institution": "City High School",
+          "year": "2018"
+        }
+      ],
+      "job_requirements": [
+        "Bachelors in Computer Science, Software Engineering, or related field"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.3,
+      "notes": "Insufficient education - High school vs Bachelors requirement"
+    },
+    {
+      "id": 7,
+      "resume_id": "test_resume_7",
+      "job_id": "test_job_4",
+      "candidate_education": [
+        {
+          "degree": "MBA",
+          "field": "Technology Management",
+          "institution": "Harvard Business School",
+          "year": "2021"
+        }
+      ],
+      "job_requirements": [
+        "MBA or Masters in Business Administration with technology focus"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.9,
+      "notes": "Perfect MBA match from top institution"
+    },
+    {
+      "id": 8,
+      "resume_id": "test_resume_8",
+      "job_id": "test_job_4",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Mechanical Engineering",
+          "institution": "Engineering College",
+          "year": "2017"
+        }
+      ],
+      "job_requirements": [
+        "MBA or Masters in Business Administration with technology focus"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.5,
+      "notes": "Different field and degree level"
+    },
+    {
+      "id": 9,
+      "resume_id": "test_resume_9",
+      "job_id": "test_job_5",
+      "candidate_education": [
+        {
+          "degree": "PhD",
+          "field": "Artificial Intelligence",
+          "institution": "Carnegie Mellon University",
+          "year": "2023"
+        },
+        {
+          "degree": "Masters",
+          "field": "Computer Science",
+          "institution": "UC Berkeley",
+          "year": "2019"
+        }
+      ],
+      "job_requirements": [
+        "PhD in AI, Machine Learning, or Computer Science",
+        "Research experience in deep learning"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.95,
+      "notes": "Exceptional match - PhD in AI plus Masters"
+    },
+    {
+      "id": 10,
+      "resume_id": "test_resume_10",
+      "job_id": "test_job_5",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Information Technology",
+          "institution": "Community College",
+          "year": "2020"
+        }
+      ],
+      "job_requirements": [
+        "PhD in AI, Machine Learning, or Computer Science",
+        "Research experience in deep learning"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.5,
+      "notes": "Significantly underqualified"
+    },
+    {
+      "id": 11,
+      "resume_id": "test_resume_11",
+      "job_id": "test_job_6",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "Electrical Engineering",
+          "institution": "Georgia Tech",
+          "year": "2021"
+        }
+      ],
+      "job_requirements": [
+        "Masters in Electrical Engineering, Computer Engineering, or related field"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.85,
+      "notes": "Exact field match"
+    },
+    {
+      "id": 12,
+      "resume_id": "test_resume_12",
+      "job_id": "test_job_6",
+      "candidate_education": [
+        {
+          "degree": "Diploma",
+          "field": "Electronics",
+          "institution": "Technical Institute",
+          "year": "2018"
+        }
+      ],
+      "job_requirements": [
+        "Masters in Electrical Engineering, Computer Engineering, or related field"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.4,
+      "notes": "Diploma vs Masters requirement"
+    },
+    {
+      "id": 13,
+      "resume_id": "test_resume_13",
+      "job_id": "test_job_7",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Mathematics",
+          "institution": "University of Michigan",
+          "year": "2020"
+        },
+        {
+          "degree": "Masters",
+          "field": "Statistics",
+          "institution": "University of Michigan",
+          "year": "2022"
+        }
+      ],
+      "job_requirements": [
+        "Bachelors or Masters in Mathematics, Statistics, or Data Science"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.9,
+      "notes": "Double degree in relevant fields"
+    },
+    {
+      "id": 14,
+      "resume_id": "test_resume_14",
+      "job_id": "test_job_7",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "English Literature",
+          "institution": "Liberal Arts College",
+          "year": "2019"
+        }
+      ],
+      "job_requirements": [
+        "Bachelors or Masters in Mathematics, Statistics, or Data Science"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.3,
+      "notes": "Completely different field"
+    },
+    {
+      "id": 15,
+      "resume_id": "test_resume_15",
+      "job_id": "test_job_8",
+      "candidate_education": [
+        {
+          "degree": "PhD",
+          "field": "Bioinformatics",
+          "institution": "Johns Hopkins University",
+          "year": "2022"
+        }
+      ],
+      "job_requirements": [
+        "PhD in Bioinformatics, Computational Biology, or related field"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.9,
+      "notes": "Perfect match in specialized field"
+    },
+    {
+      "id": 16,
+      "resume_id": "test_resume_16",
+      "job_id": "test_job_8",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "Biology",
+          "institution": "State University",
+          "year": "2020"
+        }
+      ],
+      "job_requirements": [
+        "PhD in Bioinformatics, Computational Biology, or related field"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.6,
+      "notes": "Related field but insufficient degree level"
+    },
+    {
+      "id": 17,
+      "resume_id": "test_resume_17",
+      "job_id": "test_job_9",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Computer Science",
+          "institution": "Online University",
+          "year": "2021"
+        }
+      ],
+      "job_requirements": [
+        "Bachelors degree in any field",
+        "Programming skills"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.7,
+      "notes": "Meets minimum requirements"
+    },
+    {
+      "id": 18,
+      "resume_id": "test_resume_18",
+      "job_id": "test_job_9",
+      "candidate_education": [
+        {
+          "degree": "Associate",
+          "field": "General Studies",
+          "institution": "Community College",
+          "year": "2019"
+        }
+      ],
+      "job_requirements": [
+        "Bachelors degree in any field",
+        "Programming skills"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.5,
+      "notes": "Associate vs Bachelors requirement"
+    },
+    {
+      "id": 19,
+      "resume_id": "test_resume_19",
+      "job_id": "test_job_10",
+      "candidate_education": [
+        {
+          "degree": "Masters",
+          "field": "Cybersecurity",
+          "institution": "University of Maryland",
+          "year": "2022"
+        }
+      ],
+      "job_requirements": [
+        "Masters in Cybersecurity, Information Security, or Computer Science"
+      ],
+      "is_match": true,
+      "expected_score_min": 0.9,
+      "notes": "Perfect match in cybersecurity"
+    },
+    {
+      "id": 20,
+      "resume_id": "test_resume_20",
+      "job_id": "test_job_10",
+      "candidate_education": [
+        {
+          "degree": "Bachelors",
+          "field": "Criminal Justice",
+          "institution": "State College",
+          "year": "2018"
+        }
+      ],
+      "job_requirements": [
+        "Masters in Cybersecurity, Information Security, or Computer Science"
+      ],
+      "is_match": false,
+      "expected_score_max": 0.3,
+      "notes": "Unrelated field and insufficient degree"
+    }
+  ],
+  "validation_summary": {
+    "total_positive_cases": 10,
+    "total_negative_cases": 10,
+    "balanced_dataset": true,
+    "difficulty_levels": {
+      "easy": 8,
+      "medium": 8,
+      "hard": 4
+    }
+  }
+}

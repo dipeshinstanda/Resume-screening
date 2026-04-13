@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "resume_text": "John Doe. Education: Bachelor of Science in Computer Science from MIT, 2018. Master of Science in Data Science from Stanford, 2020. Experience: Software Engineer at Google, 2020-2023.",
+    "education": ["Bachelor of Science in Computer Science", "Master of Science in Data Science"]
+  },
+  {
+    "id": 2,
+    "resume_text": "Jane Smith. Education: Bachelor of Arts in English from Harvard, 2019. PhD in Literature from Yale, 2022. Experience: Professor at University of California, 2022-present.",
+    "education": ["Bachelor of Arts in English", "PhD in Literature"]
+  },
+  {
+    "id": 3,
+    "resume_text": "Bob Johnson. Education: Associate Degree in Nursing from Community College, 2015. Bachelor of Science in Nursing from State University, 2017. Experience: Nurse at Hospital, 2017-present.",
+    "education": ["Associate Degree in Nursing", "Bachelor of Science in Nursing"]
+  }
+]

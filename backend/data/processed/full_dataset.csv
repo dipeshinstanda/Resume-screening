@@ -1,0 +1,600 @@
+id,resume_id,job_id,degree,field,institution,year,job_requirements,candidate_skills,job_skills,is_match,expected_score_min,expected_score_max
+1,resume_000001,job_0002,High School,Biology,Boston University,2010,Bachelors in any field,Git|Debugging|Agile,Testing|Debugging|Git,False,0.0,0.4
+2,resume_000002,job_0003,High School,Mathematics,State University,2007,Bachelors in Information Technology,Go|Django|Ruby|Java,Django|Java|Ruby,False,0.0,0.4
+3,resume_000003,job_0004,Bachelors,English Literature,Tech University,2013,Masters in Software Engineering,JavaScript|Python|Vue.js|C++,JavaScript|Flask|C++|Java,False,0.0,0.4
+4,resume_000004,job_0005,High School,Information Technology,University of Maryland,2007,Bachelors in any field,CI/CD|Scrum|Agile|Testing|Debugging|Git,Git|Scrum|CI/CD,False,0.0,0.4
+5,resume_000005,job_0006,BSc,Software Engineering,Local Institute,2016,Bachelors in Information Technology,Rust|Node.js|React|Flask,Flask|HTML|Angular|Go,False,0.0,0.4
+6,resume_000006,job_0007,Bachelors,Finance,Local Institute,2011,PhD in Artificial Intelligence|Research experience required|Publications preferred,Tableau|JavaScript|NLP|Data Analysis|SQL|TensorFlow,Python|C++|PostgreSQL|TensorFlow|Scikit-learn,False,0.0,0.4
+7,resume_000007,job_0008,Doctorate,Business Administration,University of Michigan,2021,Bachelors in Software Engineering,Angular|Flask|Vue.js,Go|JavaScript|Ruby|Django|HTML,False,0.0,0.4
+8,resume_000008,job_0009,Associate,English Literature,State University,2019,PhD in Data Science|Research experience required|Publications preferred,Rust|Java|PowerBI|JavaScript|PostgreSQL,NoSQL|JavaScript|PostgreSQL|C#|Data Analysis,False,0.0,0.4
+9,resume_000009,job_0010,Diploma,Finance,Engineering College,2014,Diploma in any field,Debugging|Agile|Scrum|Testing|CI/CD|Git,CI/CD|Git|Agile|Testing|Scrum,False,0.0,0.4
+10,resume_000010,job_0011,High School,Physics,University of Washington,2005,Doctorate in Computer Science|Research experience required|Publications preferred,Rust|TensorFlow|NoSQL|Go|C#|Data Analysis|C++,Computer Vision|Go|C++|Data Analysis,False,0.0,0.4
+11,resume_000011,job_0012,Diploma,Electrical Engineering,Online University,2016,Masters in Computer Science|Research experience required|Publications preferred,NLP|Scikit-learn|C++,Go|PowerBI|PostgreSQL,False,0.0,0.4
+12,resume_000012,job_0013,Bachelors,Information Technology,Local Institute,2013,Doctorate in Physics|Research experience required|Publications preferred,Java|PostgreSQL|Python,Rust|Ruby|Computer Vision,False,0.0,0.4
+13,resume_000013,job_0014,BTech,English Literature,State University,2012,Bachelors in Information Technology,Flask|Node.js|HTML|Django|React,CSS|JavaScript|C++|C#|Flask,False,0.0,0.4
+14,resume_000014,job_0015,Bachelors,Business Administration,University of Michigan,2005,Masters in Computer Science|5+ years experience,NLP|C++|Data Analysis|Rust,Tableau|Java|JavaScript|Computer Vision|MongoDB,False,0.0,0.4
+15,resume_000015,job_0016,High School,Mechanical Engineering,Boston University,2009,Bachelors in Computer Science,HTML|Angular|CSS,JavaScript|React|C++,False,0.0,0.4
+16,resume_000016,job_0017,High School,Software Engineering,Regional University,2010,Bachelors in any Engineering,Python|Vue.js|Flask|React|C#|HTML|Java,React|Java|HTML,False,0.0,0.4
+17,resume_000017,job_0018,Associate,Artificial Intelligence,Regional University,2014,Bachelors in Software Engineering,CSS|C#|Flask|Python|Java,Flask|CSS|C#|Python|Django,False,0.0,0.4
+18,resume_000018,job_0019,BSc,Artificial Intelligence,NUS Singapore,2017,Bachelors in Computer Science,C#|React|Python,C#|Go|JavaScript|Python,False,0.0,0.4
+19,resume_000019,job_0020,Masters,English Literature,Community College,2013,Doctorate in Physics|Research experience required|Publications preferred,Tableau|C#|Rust|Ruby|PostgreSQL|Computer Vision,Ruby|Scikit-learn|Computer Vision,False,0.0,0.4
+20,resume_000020,job_0021,High School,Biology,University of Illinois,2005,Bachelors in Computer Science,Node.js|C#|Flask|Django|C++|CSS,Go|CSS|Ruby,False,0.0,0.4
+21,resume_000021,job_0022,BSc,Electrical Engineering,Boston University,2018,Diploma in any field,Scrum|Agile|Debugging,Git|Testing|CI/CD,False,0.0,0.4
+22,resume_000022,job_0023,High School,English Literature,Cornell University,2005,Bachelors in any Engineering,Go|Ruby|CSS|Java|Vue.js|HTML|Angular,C++|Node.js|C#|React,False,0.0,0.4
+23,resume_000023,job_0024,BSc,Mechanical Engineering,NUS Singapore,2014,MBA in Data Science|5+ years experience,Tableau|Data Analysis|PyTorch|NLP,Python|PyTorch|Tableau|Go|Computer Vision,False,0.0,0.4
+24,resume_000024,job_0025,Associate,Physics,Community College,2017,Bachelors in Data Science|5+ years experience,JavaScript|PyTorch|MongoDB|Scikit-learn,Rust|PyTorch|PowerBI,False,0.0,0.4
+25,resume_000025,job_0026,PhD,Software Engineering,Penn State,2019,Doctorate in Mathematics|Research experience required|Publications preferred,Go|NLP|NoSQL|Tableau|Rust|C#|Scikit-learn,Python|C++|Computer Vision|Rust|Ruby,False,0.0,0.4
+26,resume_000026,job_0027,High School,Psychology,Penn State,2007,Bachelors in Information Technology,Flask|CSS|React|Rust|JavaScript|Django|Vue.js,Rust|Flask|Vue.js|C#,False,0.0,0.4
+27,resume_000027,job_0028,Diploma,Physics,City College,2014,Bachelors in Information Technology,Vue.js|HTML|React|Java|JavaScript,Rust|Go|Node.js,False,0.0,0.4
+28,resume_000028,job_0029,PhD,Mechanical Engineering,UC Berkeley,2015,Bachelors in Computer Science,Django|HTML|CSS|Angular|Node.js|Python,Django|Rust|Python|Ruby|C#,False,0.0,0.4
+29,resume_000029,job_0030,BTech,Finance,NUS Singapore,2021,Bachelors in any field,Scrum|CI/CD|Testing|Git,Scrum|CI/CD|Agile|Testing,False,0.0,0.4
+30,resume_000030,job_0031,PhD,English Literature,UC Berkeley,2019,PhD in Mathematics|Research experience required|Publications preferred,SQL|Ruby|Java|TensorFlow,Scikit-learn|Go|SQL|PowerBI,False,0.0,0.4
+31,resume_000031,job_0032,BTech,Information Technology,University of Illinois,2014,Bachelors in any Engineering,Java|Ruby|C++|Vue.js|CSS|Django|Python,Rust|C++|Flask,False,0.0,0.4
+32,resume_000032,job_0033,Bachelors,Software Engineering,Regional University,2017,Bachelors in Software Engineering,C++|Django|Flask|JavaScript|C#|Java|Angular,Angular|CSS|Vue.js,True,0.8,1.0
+33,resume_000033,job_0034,Bachelors,Data Science,City College,2011,Bachelors in Software Engineering,Node.js|React|Go,Node.js|Java|React|Vue.js|Ruby,False,0.0,0.4
+34,resume_000034,job_0035,MBA,Data Science,UC Berkeley,2015,Bachelors in Information Technology,React|Angular|Django|CSS,HTML|Go|Flask|Node.js,False,0.0,0.4
+35,resume_000035,job_0036,Diploma,Electrical Engineering,City College,2023,Masters in Computer Science,Django|Ruby|Python|Rust|HTML|JavaScript,Go|Ruby|Django|C#,False,0.0,0.4
+36,resume_000036,job_0037,BSc,Finance,State University,2018,PhD in Mathematics|Research experience required|Publications preferred,PostgreSQL|Rust|NoSQL|Data Analysis|SQL|Python,PyTorch|Rust|NLP,False,0.0,0.4
+37,resume_000037,job_0038,Bachelors,Information Technology,Community College,2017,Masters in Software Engineering,Vue.js|Ruby|Node.js|Rust|C#|Flask|CSS,C++|Node.js|CSS,False,0.0,0.4
+38,resume_000038,job_0039,Bachelors,Software Engineering,City College,2021,Diploma in any field,Scrum|Agile|Debugging|Git,Git|Testing|Agile|CI/CD,False,0.0,0.4
+39,resume_000039,job_0040,Masters,Biology,Harvard University,2020,Bachelors in Computer Science,Angular|Rust|HTML|Flask|Ruby|JavaScript|Python,CSS|Java|Flask|HTML,False,0.0,0.4
+40,resume_000040,job_0041,Masters,Artificial Intelligence,Engineering College,2022,Bachelors in Computer Science,Flask|Angular|HTML,Rust|Django|React|Go|CSS,False,0.0,0.4
+41,resume_000041,job_0042,BTech,Information Technology,State University,2019,PhD in Artificial Intelligence|Research experience required|Publications preferred,JavaScript|Ruby|Rust|Tableau|PowerBI,Python|Computer Vision|SQL,False,0.0,0.4
+42,resume_000042,job_0043,High School,Biology,Local Institute,2005,MBA in Software Engineering|5+ years experience,C++|PostgreSQL|Rust|C#|TensorFlow|Tableau,Java|Ruby|PyTorch,False,0.0,0.4
+43,resume_000043,job_0044,High School,Biology,Online University,2009,Diploma in any field,Testing|Git|CI/CD,Scrum|Testing|Debugging|Git|CI/CD,False,0.0,0.4
+44,resume_000044,job_0045,Bachelors,Computer Science,Penn State,2021,Bachelors in Computer Science,Flask|Vue.js|CSS|Rust|Java|Django|Ruby,Vue.js|Ruby|CSS|Java,True,0.8,1.0
+45,resume_000045,job_0046,MBA,Information Technology,Boston University,2016,Bachelors in any field,Scrum|Debugging|Testing,CI/CD|Testing|Git,False,0.0,0.4
+46,resume_000046,job_0047,High School,Electrical Engineering,Local Institute,2005,MBA in Software Engineering|5+ years experience,SQL|NoSQL|C++|Python|Rust,Ruby|PyTorch|PostgreSQL|Python|Computer Vision,False,0.0,0.4
+47,resume_000047,job_0048,PhD,Business Administration,UCLA,2020,Bachelors in any Engineering,Flask|CSS|Rust|HTML|C++,C#|Go|C++|Angular,False,0.0,0.4
+48,resume_000048,job_0049,High School,Chemistry,Community College,2021,Bachelors in Information Technology,CSS|Flask|JavaScript|Rust|React,Node.js|Ruby|React|Django,False,0.0,0.4
+49,resume_000049,job_0050,High School,Biology,University of Maryland,2017,MBA in Computer Science|5+ years experience,NoSQL|NLP|Tableau|C#|PowerBI,C#|MongoDB|Data Analysis,False,0.0,0.4
+50,resume_000050,job_0051,BTech,Data Science,Purdue University,2024,MBA in Software Engineering|5+ years experience,NoSQL|TensorFlow|Scikit-learn,NLP|JavaScript|Scikit-learn|PostgreSQL|PowerBI,False,0.0,0.4
+51,resume_000051,job_0052,BTech,Psychology,Purdue University,2010,Bachelors in Business Administration|5+ years experience,JavaScript|Computer Vision|C++|Data Analysis,Ruby|PyTorch|Python|Java,False,0.0,0.4
+52,resume_000052,job_0053,High School,Finance,Engineering College,2007,Masters in Data Science|5+ years experience,Rust|NoSQL|Data Analysis|C#|PowerBI|SQL|Scikit-learn,SQL|TensorFlow|Python|PowerBI,False,0.0,0.4
+53,resume_000053,job_0054,Bachelors,Data Science,Penn State,2015,Masters in Software Engineering,HTML|Flask|C#|C++|Go,C++|CSS|Go|Angular,False,0.0,0.4
+54,resume_000054,job_0055,High School,Mathematics,University of Maryland,2012,Bachelors in Software Engineering,Rust|Vue.js|C++|Angular|C#,C#|Vue.js|Java|HTML|Django,False,0.0,0.4
+55,resume_000055,job_0056,MBA,Computer Science,University of Maryland,2015,Doctorate in Data Science|Research experience required|Publications preferred,Ruby|Go|C#|PostgreSQL|Keras|TensorFlow,TensorFlow|NoSQL|PyTorch,False,0.0,0.4
+56,resume_000056,job_0057,Diploma,Chemistry,Tech University,2017,Masters in Data Science|5+ years experience,Keras|JavaScript|NLP|Python|TensorFlow|C++|Rust,TensorFlow|Data Analysis|NLP|Keras,False,0.0,0.4
+57,resume_000057,job_0058,MBA,Computer Science,Columbia University,2024,Bachelors in Software Engineering,HTML|CSS|Node.js,Flask|Java|JavaScript|Python,False,0.0,0.4
+58,resume_000058,job_0059,MBA,Data Science,UCLA,2013,MBA in Data Science|5+ years experience,PostgreSQL|Computer Vision|Data Analysis|C#|Tableau,C++|NoSQL|Computer Vision|TensorFlow|Java,True,0.8,1.0
+59,resume_000059,job_0060,Diploma,Software Engineering,Local Institute,2017,Bachelors in Software Engineering,Node.js|Python|Go|C#|C++|Java|Rust,Go|Vue.js|HTML,False,0.5,0.75
+60,resume_000060,job_0061,Bachelors,Computer Science,Community College,2013,Bachelors in any field,Agile|Testing|Debugging|Git|CI/CD|Scrum,Git|Scrum|Agile|Debugging|CI/CD,False,0.0,0.4
+61,resume_000061,job_0062,PhD,Artificial Intelligence,University of Michigan,2015,Bachelors in Business Administration|5+ years experience,Ruby|TensorFlow|Java,Computer Vision|MongoDB|C++,False,0.0,0.4
+62,resume_000062,job_0063,Bachelors,Business Administration,Local Institute,2022,Bachelors in any field,Agile|Testing|Git|Scrum|Debugging|CI/CD,Git|Debugging|CI/CD|Agile|Scrum,False,0.0,0.4
+63,resume_000063,job_0064,Bachelors,Business Administration,Local Institute,2011,Bachelors in Computer Science,React|Angular|Vue.js|HTML,Vue.js|Go|Angular|React|C#,False,0.0,0.4
+64,resume_000064,job_0065,BTech,Data Science,NUS Singapore,2011,Bachelors in any field,Agile|CI/CD|Scrum|Debugging|Testing|Git,Git|Scrum|CI/CD|Agile|Testing,False,0.0,0.4
+65,resume_000065,job_0066,High School,Mechanical Engineering,NUS Singapore,2016,Bachelors in Computer Science|5+ years experience,PostgreSQL|PowerBI|Scikit-learn|C++|Computer Vision|Keras|MongoDB,Computer Vision|Java|PyTorch|Data Analysis|Keras,False,0.0,0.4
+66,resume_000066,job_0067,Bachelors,Data Science,Technical Institute,2010,Doctorate in Physics|Research experience required|Publications preferred,Computer Vision|PostgreSQL|Tableau|Python,TensorFlow|Python|Ruby|PowerBI|PyTorch,False,0.0,0.4
+67,resume_000067,job_0068,Bachelors,Psychology,Engineering College,2019,PhD in Computer Science|Research experience required|Publications preferred,MongoDB|Go|NLP,SQL|Scikit-learn|Ruby|Keras,False,0.0,0.4
+68,resume_000068,job_0069,Bachelors,Mathematics,Boston University,2005,Masters in Software Engineering,CSS|Angular|Rust|Go|C#|C++,C++|Ruby|Go|Java|C#,False,0.0,0.4
+69,resume_000069,job_0070,Associate,Mathematics,Local Institute,2018,PhD in Mathematics|Research experience required|Publications preferred,Java|Python|Go|PyTorch|Data Analysis|C#|NLP,PyTorch|Scikit-learn|C++|Python,False,0.3,0.6
+70,resume_000070,job_0071,Bachelors,Artificial Intelligence,University of Illinois,2018,Diploma in any field,Debugging|Git|CI/CD|Testing|Agile|Scrum,Testing|CI/CD|Debugging|Scrum,False,0.0,0.4
+71,resume_000071,job_0072,High School,Electrical Engineering,University of Maryland,2012,Bachelors in Information Technology,Flask|Angular|Go|React,Django|Flask|C#,True,0.5,0.75
+72,resume_000072,job_0073,High School,Finance,Purdue University,2011,Masters in Software Engineering,C++|JavaScript|C#|CSS,C#|Django|HTML,True,0.5,0.75
+73,resume_000073,job_0074,Bachelors,Artificial Intelligence,Local Institute,2017,Diploma in any field,Agile|CI/CD|Git|Debugging|Scrum,Scrum|Debugging|Git|Agile|CI/CD,False,0.0,0.4
+74,resume_000074,job_0075,Bachelors,Physics,University of Maryland,2021,Bachelors in any Engineering,Java|Rust|Django|Angular|Vue.js|C++|Ruby,CSS|React|JavaScript|Python|Rust,False,0.0,0.4
+75,resume_000075,job_0076,Masters,Biology,Stanford University,2018,PhD in Mathematics|Research experience required|Publications preferred,MongoDB|PowerBI|Ruby|Keras|PostgreSQL|PyTorch,Computer Vision|Scikit-learn|Java|Tableau,False,0.0,0.4
+76,resume_000076,job_0077,MBA,Information Technology,Cornell University,2021,Bachelors in any field,Testing|Agile|Scrum,Debugging|CI/CD|Agile|Scrum,False,0.0,0.4
+77,resume_000077,job_0078,Bachelors,Information Technology,Technical Institute,2016,Bachelors in Software Engineering,JavaScript|Vue.js|HTML|Go|React|Ruby|Python,Angular|JavaScript|C++|Ruby,False,0.0,0.4
+78,resume_000078,job_0079,Bachelors,Artificial Intelligence,Tech University,2014,Masters in Physics|Research experience required|Publications preferred,Java|Scikit-learn|C#|NLP|Data Analysis|Ruby|JavaScript,Tableau|Ruby|SQL|Java|Computer Vision,False,0.0,0.4
+79,resume_000079,job_0080,Bachelors,Business Administration,University of Maryland,2014,Bachelors in any Engineering,Angular|Django|HTML|Rust,Node.js|Vue.js|Angular,False,0.0,0.4
+80,resume_000080,job_0081,BSc,Chemistry,Online University,2018,Masters in Software Engineering|5+ years experience,Java|NoSQL|Keras|PostgreSQL|C++,MongoDB|C++|PyTorch|JavaScript|Ruby,False,0.0,0.4
+81,resume_000081,job_0082,Bachelors,Psychology,Online University,2011,MBA in Business Administration|5+ years experience,Computer Vision|Java|NLP,Keras|Rust|NLP|JavaScript|PowerBI,False,0.0,0.4
+82,resume_000082,job_0083,PhD,Psychology,NUS Singapore,2020,Masters in Computer Science|5+ years experience,NoSQL|C#|PowerBI|SQL|Python,Python|TensorFlow|Go,False,0.0,0.4
+83,resume_000083,job_0084,Bachelors,Data Science,University of Washington,2011,Diploma in any field,CI/CD|Testing|Git,Testing|Debugging|Agile|Scrum|Git,False,0.0,0.4
+84,resume_000084,job_0085,BSc,Software Engineering,Online University,2012,Masters in Data Science|Research experience required|Publications preferred,MongoDB|PostgreSQL|PowerBI,PostgreSQL|Python|NLP|NoSQL|Java,False,0.0,0.4
+85,resume_000085,job_0086,High School,Chemistry,NYU,2008,Masters in Data Science|Research experience required|Publications preferred,Java|Keras|PostgreSQL|Scikit-learn,Ruby|SQL|NoSQL|PowerBI|C#,False,0.0,0.4
+86,resume_000086,job_0087,Bachelors,Software Engineering,NYU,2007,Diploma in any field,Git|Agile|Scrum|Testing|Debugging,Scrum|Debugging|Git|Agile|Testing,False,0.0,0.4
+87,resume_000087,job_0088,BTech,Electrical Engineering,University of Texas,2017,Masters in Computer Science,JavaScript|Go|Angular|CSS|React|C#,C++|Java|Ruby|Vue.js,False,0.0,0.4
+88,resume_000088,job_0089,BTech,Artificial Intelligence,Local Institute,2015,Masters in Information Technology,JavaScript|Vue.js|HTML,Node.js|React|Django|CSS,False,0.0,0.4
+89,resume_000089,job_0090,Bachelors,Computer Science,Engineering College,2023,Bachelors in Computer Science,Rust|Django|Vue.js,Node.js|Go|Angular|Python,True,0.75,1.0
+90,resume_000090,job_0091,Bachelors,Physics,Local Institute,2015,Masters in Artificial Intelligence|Research experience required|Publications preferred,Keras|NLP|Scikit-learn|TensorFlow|Rust|C++|Python,Ruby|NoSQL|MongoDB|NLP|C++,False,0.0,0.4
+91,resume_000091,job_0092,BTech,Software Engineering,University of Maryland,2014,Bachelors in Computer Science,JavaScript|Rust|CSS|Node.js,JavaScript|Django|Vue.js|Ruby,False,0.0,0.4
+92,resume_000092,job_0093,Diploma,Biology,Tech University,2018,Bachelors in Software Engineering,Node.js|React|C++|Java,C#|C++|Django,False,0.0,0.4
+93,resume_000093,job_0094,BSc,Business Administration,Technical Institute,2012,PhD in Data Science|Research experience required|Publications preferred,NoSQL|MongoDB|Computer Vision|Data Analysis|JavaScript|C#,PowerBI|JavaScript|SQL|Data Analysis,False,0.0,0.4
+94,resume_000094,job_0095,Associate,Electrical Engineering,Engineering College,2024,Bachelors in any field,Testing|Git|Debugging|Scrum|CI/CD|Agile,Agile|Scrum|Debugging,False,0.0,0.4
+95,resume_000095,job_0096,High School,Finance,Engineering College,2009,Bachelors in any field,Testing|Agile|Debugging|Scrum|CI/CD|Git,Git|Debugging|Scrum,False,0.0,0.4
+96,resume_000096,job_0097,Bachelors,Chemistry,Online University,2019,Bachelors in any Engineering,CSS|C++|Django|Flask|Vue.js,Angular|Rust|Java|Node.js,False,0.0,0.4
+97,resume_000097,job_0098,MBA,Business Administration,Penn State,2013,MBA in Business Administration|5+ years experience,NLP|C#|Keras|MongoDB|C++,Rust|SQL|C++|TensorFlow,True,0.8,1.0
+98,resume_000098,job_0099,Masters,Computer Science,Regional University,2016,Bachelors in Computer Science,Vue.js|C++|Django|JavaScript|Rust,HTML|Rust|C#|CSS|Python,True,0.8,1.0
+99,resume_000099,job_0100,MBA,Software Engineering,Oxford University,2019,Doctorate in Mathematics|Research experience required|Publications preferred,PowerBI|NoSQL|PyTorch|PostgreSQL|Python|C++|Go,TensorFlow|Keras|NLP,False,0.0,0.4
+100,resume_000100,job_0101,Masters,Mathematics,Technical Institute,2013,Bachelors in Information Technology,HTML|Django|React|C#|Angular|Vue.js|Node.js,C#|Java|Go,False,0.0,0.4
+101,resume_000101,job_0102,High School,Mathematics,Technical Institute,2006,PhD in Artificial Intelligence|Research experience required|Publications preferred,NoSQL|MongoDB|SQL|C#|Tableau,Scikit-learn|Tableau|PowerBI,False,0.0,0.4
+102,resume_000102,job_0103,Masters,Mathematics,NYU,2018,Diploma in any field,Git|Scrum|Testing|CI/CD|Debugging|Agile,Scrum|Git|CI/CD|Agile|Testing,False,0.0,0.4
+103,resume_000103,job_0104,Bachelors,Mathematics,Local Institute,2012,Diploma in any field,Git|Testing|Debugging|CI/CD,CI/CD|Scrum|Debugging,False,0.0,0.4
+104,resume_000104,job_0105,Doctorate,Mechanical Engineering,Purdue University,2022,Bachelors in any Engineering,Go|React|Ruby|Vue.js,Django|Ruby|JavaScript|Rust,False,0.0,0.4
+105,resume_000105,job_0106,Diploma,Finance,Community College,2020,Masters in Computer Science,React|CSS|C#|C++,Angular|Node.js|C++|HTML,False,0.0,0.4
+106,resume_000106,job_0107,Diploma,Electrical Engineering,Local Institute,2015,Masters in Computer Science,Django|HTML|Go|Ruby|JavaScript|C#|Python,JavaScript|Ruby|Rust|Vue.js,False,0.0,0.4
+107,resume_000107,job_0108,Bachelors,Software Engineering,Purdue University,2014,Bachelors in Computer Science,Rust|C++|Python|Vue.js|React|HTML|Django,C++|Go|Ruby,False,0.0,0.4
+108,resume_000108,job_0109,Diploma,Data Science,Engineering College,2010,MBA in Data Science|5+ years experience,PyTorch|Scikit-learn|PowerBI|Java,PowerBI|Data Analysis|Rust,False,0.5,0.75
+109,resume_000109,job_0110,Associate,Biology,State University,2024,Bachelors in Computer Science,CSS|JavaScript|Node.js|C#|Python|Flask,C++|HTML|Ruby|C#,False,0.0,0.4
+110,resume_000110,job_0111,BTech,English Literature,University of Texas,2023,Bachelors in Computer Science,Ruby|Node.js|Rust|Vue.js|C#,Ruby|Python|Node.js|CSS|C#,False,0.0,0.4
+111,resume_000111,job_0112,Associate,Chemistry,City College,2012,Bachelors in any Engineering,JavaScript|Go|Vue.js|Java|CSS,CSS|Ruby|C++,False,0.0,0.4
+112,resume_000112,job_0113,Doctorate,Business Administration,Cornell University,2015,Bachelors in any field,Debugging|Agile|Git|Scrum|CI/CD,Scrum|Agile|CI/CD|Debugging,False,0.0,0.4
+113,resume_000113,job_0114,High School,English Literature,Community College,2014,Masters in Software Engineering|5+ years experience,C#|SQL|Keras|Computer Vision|NoSQL|Go,Tableau|JavaScript|MongoDB,False,0.0,0.4
+114,resume_000114,job_0115,High School,Finance,University of Maryland,2009,Masters in Business Administration|5+ years experience,SQL|C++|Go|NoSQL|JavaScript|PowerBI|NLP,SQL|C#|MongoDB,False,0.0,0.4
+115,resume_000115,job_0116,Masters,Finance,Local Institute,2020,Doctorate in Data Science|Research experience required|Publications preferred,Go|Data Analysis|JavaScript,Computer Vision|Keras|JavaScript,False,0.0,0.4
+116,resume_000116,job_0117,Bachelors,English Literature,Tech University,2024,Masters in Computer Science,Flask|Ruby|Go|Rust,Django|Java|Vue.js|Flask,False,0.0,0.4
+117,resume_000117,job_0118,High School,Finance,Technical Institute,2006,Masters in Computer Science|5+ years experience,SQL|PostgreSQL|Computer Vision|Tableau|NLP,Rust|SQL|Keras,False,0.0,0.4
+118,resume_000118,job_0119,PhD,Computer Science,Boston University,2016,PhD in Artificial Intelligence|Research experience required|Publications preferred,C++|Tableau|Java,Tableau|Java|Rust|PowerBI,False,0.0,0.4
+119,resume_000119,job_0120,Bachelors,Chemistry,State University,2012,Bachelors in Software Engineering,Vue.js|Angular|HTML|Django|CSS|Ruby|C++,C#|Vue.js|React|C++,False,0.0,0.4
+120,resume_000120,job_0121,Masters,Finance,Engineering College,2020,Diploma in any field,Debugging|CI/CD|Scrum|Testing|Agile,Agile|Scrum|CI/CD|Git,False,0.0,0.4
+121,resume_000121,job_0122,Diploma,Software Engineering,City College,2014,MBA in Computer Science|5+ years experience,Computer Vision|PowerBI|PostgreSQL|MongoDB|C#|NLP|C++,Go|Scikit-learn|JavaScript|SQL,False,0.0,0.4
+122,resume_000122,job_0123,Bachelors,Computer Science,Regional University,2016,Bachelors in any field,Testing|Debugging|Agile|CI/CD,Scrum|Debugging|Git,False,0.0,0.4
+123,resume_000123,job_0124,PhD,Biology,IIT Delhi,2017,Bachelors in any field,Testing|Scrum|Debugging|Agile,Testing|Scrum|Debugging|Agile,False,0.0,0.4
+124,resume_000124,job_0125,BTech,Business Administration,UCLA,2022,Bachelors in Computer Science,Vue.js|Go|Python|Angular|C++,C#|Python|CSS|React|Angular,False,0.0,0.4
+125,resume_000125,job_0126,High School,Software Engineering,City College,2008,Diploma in any field,Debugging|CI/CD|Testing|Git|Agile|Scrum,Debugging|Testing|CI/CD,False,0.0,0.4
+126,resume_000126,job_0127,PhD,Finance,MIT,2023,PhD in Mathematics|Research experience required|Publications preferred,PowerBI|Rust|JavaScript|C#,Go|MongoDB|SQL,False,0.0,0.4
+127,resume_000127,job_0128,High School,Finance,State University,2005,Diploma in any field,Testing|CI/CD|Agile,Git|Testing|Agile,False,0.0,0.4
+128,resume_000128,job_0129,Masters,Psychology,NYU,2014,Doctorate in Mathematics|Research experience required|Publications preferred,Data Analysis|Rust|Tableau|PyTorch|JavaScript|Java,NLP|PowerBI|Tableau,False,0.0,0.4
+129,resume_000129,job_0130,High School,Business Administration,Community College,2014,Masters in Computer Science|Research experience required|Publications preferred,Go|Data Analysis|NoSQL|TensorFlow,JavaScript|TensorFlow|PostgreSQL,False,0.3,0.6
+130,resume_000130,job_0131,Associate,Computer Science,Engineering College,2024,PhD in Physics|Research experience required|Publications preferred,NLP|JavaScript|PyTorch|Ruby,Rust|Data Analysis|NLP|PostgreSQL|Scikit-learn,False,0.0,0.4
+131,resume_000131,job_0132,High School,Biology,State University,2006,Bachelors in Computer Science,Django|CSS|Ruby|Python|Vue.js,HTML|Rust|C++|Ruby,False,0.0,0.4
+132,resume_000132,job_0133,Diploma,Mechanical Engineering,Engineering College,2020,Bachelors in any Engineering,Rust|Node.js|Java|Flask|C#,Django|Node.js|CSS,False,0.0,0.4
+133,resume_000133,job_0134,Bachelors,Biology,Online University,2015,PhD in Data Science|Research experience required|Publications preferred,Keras|TensorFlow|C++|C#|JavaScript|Ruby,SQL|PostgreSQL|Tableau|MongoDB,False,0.0,0.4
+134,resume_000134,job_0135,Masters,Electrical Engineering,Technical Institute,2011,Masters in Computer Science,Flask|Go|Django|Java|Node.js,Rust|Angular|React|JavaScript|Vue.js,False,0.0,0.4
+135,resume_000135,job_0136,High School,Artificial Intelligence,Regional University,2011,Masters in Computer Science,React|C++|Node.js|Vue.js|Rust,Go|Rust|Java|JavaScript|C#,False,0.0,0.4
+136,resume_000136,job_0137,Masters,Psychology,Columbia University,2016,Masters in Information Technology,C#|CSS|Ruby|Angular|Node.js|C++,Vue.js|JavaScript|Go|Ruby,False,0.0,0.4
+137,resume_000137,job_0138,BTech,Mathematics,University of Washington,2015,Bachelors in Computer Science,Go|Angular|React|JavaScript|Vue.js|Flask|Python,HTML|Node.js|C++|Rust|C#,False,0.0,0.4
+138,resume_000138,job_0139,Bachelors,Psychology,Online University,2020,Bachelors in Information Technology,Flask|Django|Go|Java,CSS|Angular|Go|React,False,0.0,0.4
+139,resume_000139,job_0140,Associate,Mechanical Engineering,Technical Institute,2010,Bachelors in Computer Science,Node.js|JavaScript|Vue.js|Angular,Django|CSS|Ruby,False,0.0,0.4
+140,resume_000140,job_0141,Masters,Information Technology,City College,2018,Bachelors in any field,CI/CD|Debugging|Agile|Testing|Git,Git|Scrum|CI/CD|Debugging,False,0.0,0.4
+141,resume_000141,job_0142,Doctorate,Electrical Engineering,Cambridge University,2015,Bachelors in Data Science|5+ years experience,NoSQL|C++|SQL|Data Analysis|Scikit-learn,PyTorch|Java|C++,False,0.0,0.4
+142,resume_000142,job_0143,PhD,Physics,IIT Delhi,2012,Bachelors in Software Engineering|5+ years experience,Ruby|Scikit-learn|PostgreSQL|Computer Vision|SQL|Rust|NLP,PowerBI|Ruby|Tableau|Computer Vision,False,0.0,0.4
+143,resume_000143,job_0144,High School,Software Engineering,Cornell University,2006,Bachelors in any field,Scrum|Agile|CI/CD|Git|Testing,CI/CD|Testing|Scrum|Debugging|Agile,False,0.0,0.4
+144,resume_000144,job_0145,Diploma,Mathematics,Tech University,2015,Bachelors in any Engineering,JavaScript|Vue.js|CSS|Ruby|Java,Angular|Java|JavaScript,False,0.0,0.4
+145,resume_000145,job_0146,BTech,Mechanical Engineering,University of Maryland,2012,Bachelors in Information Technology,Ruby|React|JavaScript|Rust|C#|Flask|Vue.js,HTML|Angular|Python|Ruby,False,0.0,0.4
+146,resume_000146,job_0147,Doctorate,Psychology,University of Illinois,2018,Bachelors in any Engineering,Flask|Node.js|CSS|Rust|Django|JavaScript,Python|Django|HTML,False,0.0,0.4
+147,resume_000147,job_0148,Bachelors,Business Administration,Technical Institute,2006,Bachelors in any field,Scrum|Testing|Git|Debugging|Agile|CI/CD,Git|Agile|Scrum|Debugging,False,0.0,0.4
+148,resume_000148,job_0149,Masters,Business Administration,Tech University,2022,Bachelors in Business Administration|5+ years experience,PowerBI|Computer Vision|Ruby|C#|Go|MongoDB|NLP,Data Analysis|Keras|PostgreSQL,True,0.8,1.0
+149,resume_000149,job_0150,High School,Information Technology,University of Texas,2011,Doctorate in Artificial Intelligence|Research experience required|Publications preferred,Rust|C#|Scikit-learn|PowerBI,NLP|NoSQL|C#|TensorFlow|Computer Vision,False,0.0,0.4
+150,resume_000150,job_0151,Bachelors,English Literature,Local Institute,2012,Bachelors in Software Engineering,HTML|Vue.js|CSS,Node.js|Flask|Java|Django|React,False,0.0,0.4
+151,resume_000151,job_0152,High School,Psychology,Community College,2013,Bachelors in any field,Debugging|Git|Testing|CI/CD|Agile,Git|Agile|CI/CD,False,0.0,0.4
+152,resume_000152,job_0153,BTech,Software Engineering,Engineering College,2024,MBA in Computer Science|5+ years experience,TensorFlow|JavaScript|Keras|Ruby|Java,PowerBI|PyTorch|Rust|Computer Vision,False,0.0,0.4
+153,resume_000153,job_0154,High School,Data Science,University of Maryland,2006,Diploma in any field,Debugging|Scrum|Git,Debugging|Agile|CI/CD|Git,False,0.0,0.4
+154,resume_000154,job_0155,PhD,Data Science,NYU,2015,MBA in Software Engineering|5+ years experience,JavaScript|MongoDB|Data Analysis|Python,PowerBI|Ruby|SQL|Keras|Go,False,0.0,0.4
+155,resume_000155,job_0156,Associate,Artificial Intelligence,Online University,2019,Masters in Computer Science|5+ years experience,C++|Data Analysis|NLP|Keras,Scikit-learn|C#|Rust|TensorFlow,False,0.0,0.4
+156,resume_000156,job_0157,Bachelors,Software Engineering,Technical Institute,2019,Diploma in any field,Agile|Testing|Debugging|Scrum|CI/CD,Debugging|Git|Agile|CI/CD,False,0.0,0.4
+157,resume_000157,job_0158,BTech,Physics,Tech University,2018,Doctorate in Data Science|Research experience required|Publications preferred,NLP|Data Analysis|Computer Vision|Keras,Ruby|NoSQL|JavaScript|Python|Data Analysis,False,0.0,0.4
+158,resume_000158,job_0159,PhD,English Literature,University of Michigan,2022,Masters in Information Technology,JavaScript|Vue.js|React|Flask|Angular|CSS,JavaScript|C#|Java|React,False,0.0,0.4
+159,resume_000159,job_0160,Doctorate,Finance,Caltech,2016,Doctorate in Mathematics|Research experience required|Publications preferred,Java|Rust|JavaScript|Computer Vision,SQL|Tableau|Java,False,0.0,0.4
+160,resume_000160,job_0161,High School,Computer Science,Penn State,2010,Diploma in any field,Agile|Scrum|Git|CI/CD|Debugging,Scrum|Testing|Git|Agile,False,0.0,0.4
+161,resume_000161,job_0162,Associate,Physics,Tech University,2017,Bachelors in Information Technology,Ruby|CSS|JavaScript|C#|Java|Angular|Node.js,Python|CSS|Flask,False,0.0,0.4
+162,resume_000162,job_0163,Bachelors,English Literature,Purdue University,2018,MBA in Software Engineering|5+ years experience,Scikit-learn|TensorFlow|JavaScript|Keras|C++|Java,Rust|MongoDB|Java,False,0.0,0.4
+163,resume_000163,job_0164,BTech,Psychology,Regional University,2022,Bachelors in Software Engineering,Python|Ruby|C++|C#|Angular|Django,Rust|CSS|Ruby|Angular|HTML,False,0.0,0.4
+164,resume_000164,job_0165,Doctorate,Artificial Intelligence,MIT,2024,Bachelors in Business Administration|5+ years experience,Scikit-learn|Python|NLP,PyTorch|C++|Go|MongoDB|Rust,False,0.0,0.4
+165,resume_000165,job_0166,Bachelors,Software Engineering,Community College,2008,Masters in Computer Science|Research experience required|Publications preferred,C#|NLP|JavaScript|Java|Computer Vision|PowerBI|C++,TensorFlow|Scikit-learn|NLP|Tableau,False,0.0,0.4
+166,resume_000166,job_0167,Bachelors,Data Science,City College,2012,Bachelors in any field,Agile|CI/CD|Testing,CI/CD|Git|Scrum|Testing,False,0.0,0.4
+167,resume_000167,job_0168,High School,Physics,State University,2006,Bachelors in Computer Science,Node.js|Go|React|Python,Angular|C#|Flask|JavaScript|Python,False,0.0,0.4
+168,resume_000168,job_0169,Bachelors,Data Science,Penn State,2011,Masters in Computer Science|5+ years experience,Rust|C#|Go,Keras|JavaScript|Data Analysis|TensorFlow,False,0.0,0.4
+169,resume_000169,job_0170,PhD,Software Engineering,Boston University,2017,Doctorate in Computer Science|Research experience required|Publications preferred,SQL|Java|Ruby,Computer Vision|NLP|NoSQL|Python|Tableau,False,0.0,0.4
+170,resume_000170,job_0171,Diploma,Artificial Intelligence,Community College,2013,Masters in Information Technology,Java|Angular|HTML|Flask,Angular|Rust|Go,False,0.0,0.4
+171,resume_000171,job_0172,Diploma,Computer Science,Tech University,2014,Bachelors in any Engineering,Rust|Vue.js|Django|React|Python|Go|Ruby,CSS|Ruby|Angular|React,False,0.0,0.4
+172,resume_000172,job_0173,High School,English Literature,State University,2017,Bachelors in any Engineering,Ruby|Java|C++|Vue.js,React|CSS|Flask,False,0.0,0.4
+173,resume_000173,job_0174,Bachelors,Chemistry,City College,2019,Bachelors in Computer Science,Rust|Angular|Ruby|Django,Node.js|HTML|Angular|Python|CSS,False,0.0,0.4
+174,resume_000174,job_0175,Diploma,Mathematics,Engineering College,2019,Bachelors in Computer Science,Java|CSS|Python|C++|Angular|Django,CSS|Python|Ruby,False,0.0,0.4
+175,resume_000175,job_0176,Bachelors,Chemistry,Engineering College,2015,Bachelors in Computer Science,C#|Django|Java|React,JavaScript|Ruby|Node.js|Vue.js,False,0.0,0.4
+176,resume_000176,job_0177,BSc,Information Technology,NYU,2012,Bachelors in any Engineering,Ruby|Node.js|React|HTML|Angular,Rust|Vue.js|Angular|JavaScript,False,0.0,0.4
+177,resume_000177,job_0178,High School,Biology,State University,2007,Diploma in any field,Git|CI/CD|Agile|Testing|Debugging|Scrum,Scrum|Agile|Git|Debugging,False,0.0,0.4
+178,resume_000178,job_0179,High School,Software Engineering,NUS Singapore,2006,Masters in Computer Science,Java|Go|Rust,Flask|JavaScript|Go|Rust|CSS,False,0.0,0.4
+179,resume_000179,job_0180,Masters,Psychology,Penn State,2022,Masters in Data Science|5+ years experience,Java|PyTorch|Python,TensorFlow|C++|JavaScript|Scikit-learn,False,0.0,0.4
+180,resume_000180,job_0181,Doctorate,Biology,Stanford University,2018,Doctorate in Physics|Research experience required|Publications preferred,NoSQL|Python|Computer Vision|Ruby|Data Analysis|PostgreSQL|Tableau,Scikit-learn|Go|Tableau,False,0.0,0.4
+181,resume_000181,job_0182,High School,Computer Science,Technical Institute,2012,Masters in Business Administration|5+ years experience,Computer Vision|JavaScript|PyTorch,PowerBI|Tableau|NoSQL|Go|C++,False,0.0,0.4
+182,resume_000182,job_0183,Bachelors,Chemistry,Local Institute,2020,Bachelors in Software Engineering,Django|JavaScript|Ruby|Go|Flask|HTML|Rust,React|Rust|HTML,False,0.0,0.4
+183,resume_000183,job_0184,BSc,Mathematics,State University,2012,PhD in Data Science|Research experience required|Publications preferred,Computer Vision|Data Analysis|Rust|PostgreSQL|Java|NLP|PowerBI,Computer Vision|PostgreSQL|NoSQL|Rust|Data Analysis,False,0.0,0.4
+184,resume_000184,job_0185,Masters,Finance,Technical Institute,2022,Bachelors in any field,Agile|Debugging|Testing|Git|Scrum|CI/CD,Git|CI/CD|Agile|Scrum,False,0.0,0.4
+185,resume_000185,job_0186,Masters,Electrical Engineering,ETH Zurich,2021,PhD in Mathematics|Research experience required|Publications preferred,NLP|PostgreSQL|Scikit-learn|TensorFlow|MongoDB|SQL|NoSQL,Tableau|Data Analysis|MongoDB,False,0.0,0.4
+186,resume_000186,job_0187,High School,Chemistry,Cornell University,2022,Masters in Information Technology,CSS|Angular|HTML|Rust|Python|JavaScript,Django|JavaScript|Angular|Flask,False,0.0,0.4
+187,resume_000187,job_0188,Associate,Mechanical Engineering,State University,2016,Bachelors in Computer Science,React|HTML|Ruby|Python|Flask|C#,React|Flask|Rust|Node.js,False,0.0,0.4
+188,resume_000188,job_0189,Bachelors,Psychology,City College,2012,Bachelors in Information Technology,JavaScript|C++|Rust|HTML|Go|Flask,Node.js|Flask|Python|React|JavaScript,False,0.0,0.4
+189,resume_000189,job_0190,MBA,Artificial Intelligence,Purdue University,2024,Masters in Software Engineering|5+ years experience,Rust|Java|SQL,Keras|Go|TensorFlow,False,0.0,0.4
+190,resume_000190,job_0191,High School,Electrical Engineering,Local Institute,2007,Bachelors in Information Technology,React|Node.js|Flask|HTML,Angular|Python|Go,False,0.0,0.4
+191,resume_000191,job_0192,Bachelors,Software Engineering,Online University,2013,Masters in Computer Science|Research experience required|Publications preferred,C#|Ruby|Python|Rust|TensorFlow|PyTorch,PowerBI|TensorFlow|Computer Vision|NLP|Keras,False,0.0,0.4
+192,resume_000192,job_0193,BTech,Information Technology,Technical Institute,2023,Bachelors in any field,Debugging|Scrum|Testing|Agile|Git|CI/CD,Scrum|Debugging|Testing,False,0.0,0.4
+193,resume_000193,job_0194,BSc,Software Engineering,Engineering College,2018,Masters in Mathematics|Research experience required|Publications preferred,C#|Python|NoSQL|PyTorch|TensorFlow,NLP|PowerBI|Java|Go,False,0.0,0.4
+194,resume_000194,job_0195,Bachelors,Physics,Purdue University,2020,Masters in Computer Science,Ruby|C#|Java|Rust|JavaScript|HTML|React,Vue.js|CSS|Java,False,0.0,0.4
+195,resume_000195,job_0196,Bachelors,Information Technology,Tech University,2012,Masters in Physics|Research experience required|Publications preferred,Tableau|JavaScript|NoSQL|Go|MongoDB|C++|Computer Vision,NLP|MongoDB|PyTorch|Computer Vision|Java,False,0.0,0.4
+196,resume_000196,job_0197,Doctorate,Electrical Engineering,University of Illinois,2019,Bachelors in Information Technology,JavaScript|Rust|Ruby|Vue.js,Vue.js|CSS|Python,False,0.0,0.4
+197,resume_000197,job_0198,Doctorate,Chemistry,University of Texas,2019,Bachelors in Computer Science,Flask|Vue.js|Go|CSS|Django|Rust|Node.js,Java|React|C++,False,0.0,0.4
+198,resume_000198,job_0199,Diploma,Computer Science,Community College,2022,Masters in Computer Science|5+ years experience,Keras|PyTorch|C#|C++,MongoDB|Data Analysis|PyTorch|Ruby,True,0.5,0.75
+199,resume_000199,job_0200,Masters,Information Technology,Princeton University,2021,Diploma in any field,Scrum|CI/CD|Debugging|Git,CI/CD|Git|Agile,False,0.0,0.4
+200,resume_000200,job_0201,Doctorate,Software Engineering,Georgia Tech,2010,Masters in Business Administration|5+ years experience,NLP|TensorFlow|PostgreSQL,Java|Tableau|PowerBI|C++|Python,False,0.0,0.4
+201,resume_000201,job_0202,MBA,Business Administration,UC Berkeley,2011,Bachelors in Computer Science,Angular|Go|Vue.js,React|Angular|HTML,False,0.0,0.4
+202,resume_000202,job_0203,Bachelors,Mechanical Engineering,Tech University,2018,Doctorate in Computer Science|Research experience required|Publications preferred,NoSQL|Go|Tableau,MongoDB|Go|Keras|Computer Vision,False,0.0,0.4
+203,resume_000203,job_0204,BTech,English Literature,City College,2021,Bachelors in Computer Science,JavaScript|HTML|Java,CSS|JavaScript|Java|Django|React,False,0.0,0.4
+204,resume_000204,job_0205,Bachelors,Information Technology,Local Institute,2005,PhD in Computer Science|Research experience required|Publications preferred,Keras|Scikit-learn|Computer Vision|C++|PostgreSQL,Python|C#|Ruby,False,0.0,0.4
+205,resume_000205,job_0206,BTech,Mathematics,Regional University,2024,Masters in Computer Science,Django|Go|Rust,Django|Node.js|Flask|Rust,False,0.0,0.4
+206,resume_000206,job_0207,Bachelors,Data Science,University of Texas,2021,Masters in Data Science|5+ years experience,NoSQL|Data Analysis|SQL|Ruby|NLP|Keras|PyTorch,C#|NoSQL|Tableau,True,0.75,1.0
+207,resume_000207,job_0208,MBA,Computer Science,Stanford University,2014,Masters in Physics|Research experience required|Publications preferred,Data Analysis|Rust|Scikit-learn|MongoDB|PostgreSQL|C++|Go,Rust|NoSQL|Keras|NLP|C#,False,0.0,0.4
+208,resume_000208,job_0209,Associate,Computer Science,State University,2020,Diploma in any field,Git|CI/CD|Scrum|Debugging,Scrum|Git|Agile|Debugging,False,0.0,0.4
+209,resume_000209,job_0210,Diploma,Mechanical Engineering,City College,2011,Diploma in any field,CI/CD|Scrum|Git|Agile|Debugging|Testing,CI/CD|Git|Testing|Debugging,False,0.0,0.4
+210,resume_000210,job_0211,Associate,Physics,Regional University,2024,Bachelors in Data Science|5+ years experience,Keras|Java|Rust|SQL|Scikit-learn,Tableau|PowerBI|NoSQL|Keras|SQL,False,0.0,0.4
+211,resume_000211,job_0212,Doctorate,Computer Science,NYU,2015,Masters in Software Engineering,Java|HTML|JavaScript,C#|Flask|Node.js|HTML,False,0.0,0.4
+212,resume_000212,job_0213,High School,Data Science,City College,2012,Bachelors in Business Administration|5+ years experience,Computer Vision|Java|Data Analysis,SQL|PowerBI|Data Analysis,False,0.0,0.4
+213,resume_000213,job_0214,Bachelors,Business Administration,State University,2018,Diploma in any field,Agile|Testing|Debugging|Scrum|Git|CI/CD,Debugging|Testing|Scrum|CI/CD,False,0.0,0.4
+214,resume_000214,job_0215,Bachelors,Information Technology,Online University,2015,Bachelors in Computer Science,Angular|Flask|Node.js|React|Ruby|Django,Go|C++|HTML|Angular|Node.js,False,0.0,0.4
+215,resume_000215,job_0216,Bachelors,Biology,Boston University,2012,Bachelors in Information Technology,CSS|Angular|HTML|Vue.js|Node.js|Go|React,Flask|Django|Python|React,False,0.0,0.4
+216,resume_000216,job_0217,Bachelors,Chemistry,Cornell University,2007,Masters in Business Administration|5+ years experience,PostgreSQL|Java|Keras|SQL,Tableau|PostgreSQL|Rust,False,0.0,0.4
+217,resume_000217,job_0218,Associate,Finance,Online University,2013,Bachelors in Information Technology,Flask|Django|Vue.js|Ruby|React|Python,React|C++|Angular,False,0.0,0.4
+218,resume_000218,job_0219,BSc,Chemistry,University of Maryland,2018,Bachelors in Software Engineering|5+ years experience,SQL|Ruby|JavaScript|Tableau|PostgreSQL,MongoDB|C++|NLP|Java|Computer Vision,False,0.0,0.4
+219,resume_000219,job_0220,High School,Electrical Engineering,Engineering College,2006,MBA in Computer Science|5+ years experience,PyTorch|NoSQL|Data Analysis|PostgreSQL|Keras|JavaScript|NLP,Scikit-learn|MongoDB|Rust|Ruby|Tableau,False,0.0,0.4
+220,resume_000220,job_0221,Doctorate,Mechanical Engineering,Yale University,2018,Bachelors in Computer Science,Vue.js|Ruby|C#|C++|Angular,CSS|React|Flask|Django|Vue.js,False,0.0,0.4
+221,resume_000221,job_0222,Masters,Business Administration,University of Washington,2024,Bachelors in any field,CI/CD|Git|Debugging|Agile|Scrum,Testing|Scrum|CI/CD,False,0.0,0.4
+222,resume_000222,job_0223,Bachelors,Electrical Engineering,Technical Institute,2011,Bachelors in Computer Science|5+ years experience,Go|PowerBI|Computer Vision,Go|PostgreSQL|Computer Vision,False,0.0,0.4
+223,resume_000223,job_0224,Bachelors,Biology,Engineering College,2010,Bachelors in Computer Science,Java|JavaScript|Django,JavaScript|Angular|Flask|C++,False,0.0,0.4
+224,resume_000224,job_0225,BTech,Physics,Online University,2016,Bachelors in any Engineering,JavaScript|Django|Node.js,Java|Node.js|Flask|CSS|Ruby,False,0.0,0.4
+225,resume_000225,job_0226,High School,Chemistry,Online University,2011,Doctorate in Artificial Intelligence|Research experience required|Publications preferred,Rust|C#|NLP|PostgreSQL|PyTorch|Tableau|NoSQL,PowerBI|Keras|Python|PostgreSQL|C#,False,0.0,0.4
+226,resume_000226,job_0227,MBA,Finance,Purdue University,2011,Bachelors in Information Technology,C#|JavaScript|HTML|C++|Angular|CSS|Django,Ruby|Vue.js|Django,False,0.0,0.4
+227,resume_000227,job_0228,Bachelors,Psychology,Technical Institute,2017,Doctorate in Computer Science|Research experience required|Publications preferred,C++|Go|Data Analysis|NoSQL|Scikit-learn,C#|Rust|C++|PyTorch,False,0.0,0.4
+228,resume_000228,job_0229,Bachelors,English Literature,City College,2015,Masters in Software Engineering,C#|Angular|HTML|Ruby|Django|Go|JavaScript,Vue.js|C++|Django,False,0.0,0.4
+229,resume_000229,job_0230,Bachelors,Biology,Local Institute,2012,Bachelors in Information Technology,C++|JavaScript|Vue.js|Angular|Java|C#,Go|C#|Node.js,True,0.8,1.0
+230,resume_000230,job_0231,High School,Finance,University of Maryland,2017,Bachelors in any field,Scrum|Testing|CI/CD|Debugging|Git|Agile,Agile|Testing|Scrum|Git,False,0.0,0.4
+231,resume_000231,job_0232,Bachelors,Software Engineering,Purdue University,2007,Bachelors in Computer Science,C#|Node.js|HTML|Rust|Ruby|Python|C++,Rust|Java|C#|Ruby,False,0.0,0.4
+232,resume_000232,job_0233,Doctorate,Finance,NYU,2016,Bachelors in Computer Science,C++|Node.js|React|Vue.js|C#,React|Angular|CSS|HTML|JavaScript,False,0.0,0.4
+233,resume_000233,job_0234,BSc,Mathematics,Boston University,2024,Diploma in any field,Testing|CI/CD|Scrum|Agile,CI/CD|Testing|Git|Scrum,False,0.0,0.4
+234,resume_000234,job_0235,Bachelors,Artificial Intelligence,University of Texas,2010,Bachelors in any field,Scrum|Git|CI/CD|Debugging|Agile|Testing,Testing|Agile|CI/CD,False,0.0,0.4
+235,resume_000235,job_0236,Bachelors,Finance,University of Maryland,2006,PhD in Data Science|Research experience required|Publications preferred,MongoDB|NLP|Data Analysis|Python,PyTorch|JavaScript|Go|SQL|NoSQL,False,0.0,0.4
+236,resume_000236,job_0237,BTech,Mathematics,Engineering College,2022,Bachelors in Business Administration|5+ years experience,Scikit-learn|SQL|Data Analysis|JavaScript,NLP|PowerBI|C#,False,0.0,0.4
+237,resume_000237,job_0238,Bachelors,Business Administration,Purdue University,2013,PhD in Mathematics|Research experience required|Publications preferred,Tableau|PostgreSQL|Python|Computer Vision,Computer Vision|Keras|Java|MongoDB|PowerBI,False,0.0,0.4
+238,resume_000238,job_0239,MBA,Chemistry,IIT Delhi,2016,Bachelors in any field,Scrum|CI/CD|Agile|Git,Testing|Debugging|CI/CD|Agile,False,0.0,0.4
+239,resume_000239,job_0240,PhD,Mathematics,Purdue University,2011,Bachelors in any Engineering,Flask|Ruby|Java|JavaScript|Go,React|C#|Flask|CSS|Go,False,0.0,0.4
+240,resume_000240,job_0241,Diploma,Mathematics,Regional University,2020,MBA in Data Science|5+ years experience,Keras|PostgreSQL|Tableau|NoSQL,PyTorch|Data Analysis|Keras|NLP,False,0.0,0.4
+241,resume_000241,job_0242,High School,Chemistry,UCLA,2008,Diploma in any field,Testing|Git|Agile|CI/CD|Debugging|Scrum,CI/CD|Testing|Debugging,False,0.0,0.4
+242,resume_000242,job_0243,Bachelors,Mechanical Engineering,Technical Institute,2009,Bachelors in any field,CI/CD|Git|Agile|Scrum|Debugging|Testing,Testing|Debugging|Agile,False,0.0,0.4
+243,resume_000243,job_0244,High School,Computer Science,UCLA,2009,Bachelors in any Engineering,Django|Angular|C++|React|Python|Java,Angular|Node.js|Flask,False,0.0,0.4
+244,resume_000244,job_0245,High School,Mathematics,Penn State,2017,Bachelors in any field,CI/CD|Testing|Git|Scrum,Testing|Scrum|Debugging,False,0.0,0.4
+245,resume_000245,job_0246,Masters,English Literature,Yale University,2023,Masters in Information Technology,CSS|Django|C++|HTML|Ruby|Rust|Vue.js,Python|Rust|Java|C#|Flask,False,0.0,0.4
+246,resume_000246,job_0247,Bachelors,Physics,NUS Singapore,2013,Bachelors in any Engineering,Python|Node.js|Flask|C#|C++|Django|Java,Vue.js|Java|React|JavaScript,False,0.0,0.4
+247,resume_000247,job_0248,Bachelors,English Literature,Regional University,2012,MBA in Software Engineering|5+ years experience,Rust|TensorFlow|Go|PowerBI,Rust|Tableau|Keras,False,0.0,0.4
+248,resume_000248,job_0249,PhD,English Literature,Stanford University,2020,Bachelors in any Engineering,CSS|Ruby|Angular,CSS|HTML|Angular|C#,False,0.0,0.4
+249,resume_000249,job_0250,BSc,Mechanical Engineering,City College,2022,Masters in Mathematics|Research experience required|Publications preferred,PostgreSQL|Java|MongoDB|Keras|NLP|Ruby,C++|MongoDB|SQL|Scikit-learn,False,0.0,0.4
+250,resume_000250,job_0251,Bachelors,Computer Science,City College,2016,Masters in Software Engineering,Ruby|React|C#|C++|Flask,Vue.js|Ruby|JavaScript|Rust,False,0.0,0.4
+251,resume_000251,job_0252,BSc,Electrical Engineering,Online University,2014,Bachelors in any field,Debugging|Scrum|Agile,CI/CD|Debugging|Agile|Git|Scrum,False,0.0,0.4
+252,resume_000252,job_0253,Bachelors,Mechanical Engineering,Penn State,2012,Diploma in any field,Scrum|Testing|Git|Agile|CI/CD,Agile|Git|Debugging|CI/CD|Scrum,False,0.0,0.4
+253,resume_000253,job_0254,Bachelors,Business Administration,Community College,2014,Diploma in any field,CI/CD|Git|Scrum,Testing|Agile|Debugging|CI/CD|Scrum,False,0.0,0.4
+254,resume_000254,job_0255,BTech,Chemistry,NUS Singapore,2017,Bachelors in Information Technology,Ruby|Vue.js|Django|CSS,Django|Flask|Java|HTML,False,0.0,0.4
+255,resume_000255,job_0256,Masters,Electrical Engineering,Boston University,2014,Diploma in any field,Scrum|Testing|CI/CD|Agile|Git|Debugging,Agile|Debugging|Scrum,False,0.0,0.4
+256,resume_000256,job_0257,High School,Data Science,UCLA,2008,Bachelors in any field,Testing|Git|Debugging|Agile|CI/CD|Scrum,CI/CD|Scrum|Agile|Git|Debugging,False,0.0,0.4
+257,resume_000257,job_0258,High School,Electrical Engineering,Local Institute,2008,Diploma in any field,Debugging|Testing|Agile|Scrum,CI/CD|Testing|Debugging|Scrum|Agile,False,0.0,0.4
+258,resume_000258,job_0259,Bachelors,Chemistry,Tech University,2017,Bachelors in Computer Science,Python|CSS|React|Django|JavaScript,Angular|Rust|React|Python,False,0.0,0.4
+259,resume_000259,job_0260,High School,Mechanical Engineering,City College,2005,Diploma in any field,Testing|CI/CD|Debugging|Git|Scrum|Agile,Agile|Scrum|Git|Debugging,False,0.0,0.4
+260,resume_000260,job_0261,Bachelors,Finance,Regional University,2014,Diploma in any field,Git|Agile|Testing|CI/CD,Debugging|CI/CD|Testing,False,0.0,0.4
+261,resume_000261,job_0262,High School,Finance,University of Texas,2005,Masters in Computer Science,Python|C++|Java|JavaScript|CSS|Rust,Vue.js|Go|C#,False,0.0,0.4
+262,resume_000262,job_0263,High School,Chemistry,University of Michigan,2009,Bachelors in any Engineering,Ruby|C++|Flask|C#|Go|Python,Rust|Go|Django,False,0.0,0.4
+263,resume_000263,job_0264,Masters,Software Engineering,Local Institute,2021,Bachelors in any field,Debugging|Scrum|Testing|Git|CI/CD|Agile,CI/CD|Scrum|Agile|Debugging,False,0.0,0.4
+264,resume_000264,job_0265,Doctorate,Data Science,Oxford University,2020,PhD in Data Science|Research experience required|Publications preferred,C++|NLP|Rust|Python|Java|NoSQL|Keras,C#|Keras|JavaScript|Rust|Ruby,True,0.8,1.0
+265,resume_000265,job_0266,BSc,English Literature,State University,2010,Bachelors in Computer Science|5+ years experience,NoSQL|Rust|Scikit-learn|PostgreSQL,Keras|SQL|Go|Python|NLP,False,0.0,0.4
+266,resume_000266,job_0267,BSc,English Literature,University of Michigan,2017,Diploma in any field,Testing|Agile|Scrum|Debugging,CI/CD|Scrum|Agile|Git|Testing,False,0.0,0.4
+267,resume_000267,job_0268,High School,Physics,Engineering College,2005,Diploma in any field,Debugging|Git|CI/CD|Testing|Agile,Agile|Testing|Scrum|Debugging|CI/CD,False,0.0,0.4
+268,resume_000268,job_0269,Diploma,Data Science,Tech University,2018,PhD in Artificial Intelligence|Research experience required|Publications preferred,Go|C++|NoSQL,C++|Java|Data Analysis,False,0.0,0.4
+269,resume_000269,job_0270,Diploma,Physics,Local Institute,2018,Diploma in any field,Agile|Testing|Git|CI/CD|Scrum,CI/CD|Git|Debugging|Scrum|Testing,False,0.0,0.4
+270,resume_000270,job_0271,BTech,Psychology,NYU,2022,Diploma in any field,Scrum|Git|Agile,Git|Debugging|Agile|Scrum|CI/CD,False,0.0,0.4
+271,resume_000271,job_0272,Doctorate,Mathematics,Boston University,2012,Diploma in any field,Scrum|CI/CD|Testing|Git|Debugging|Agile,CI/CD|Testing|Scrum|Debugging|Git,False,0.0,0.4
+272,resume_000272,job_0273,Associate,Business Administration,Community College,2024,Masters in Information Technology,Vue.js|Angular|C++|HTML|React|Flask,React|Ruby|Rust|Flask,False,0.0,0.4
+273,resume_000273,job_0274,Bachelors,English Literature,State University,2009,Masters in Business Administration|5+ years experience,TensorFlow|PostgreSQL|MongoDB,Data Analysis|PowerBI|C#|C++|Java,False,0.0,0.4
+274,resume_000274,job_0275,Bachelors,Information Technology,Community College,2024,MBA in Business Administration|5+ years experience,Data Analysis|NLP|PowerBI,JavaScript|Scikit-learn|NoSQL,False,0.0,0.4
+275,resume_000275,job_0276,Bachelors,Chemistry,Tech University,2005,Masters in Information Technology,C++|Flask|Django|CSS|Node.js|Vue.js,Python|Vue.js|Django|HTML|Go,False,0.0,0.4
+276,resume_000276,job_0277,Bachelors,Finance,University of Texas,2005,Bachelors in any Engineering,JavaScript|C++|Go|C#|Flask|CSS|Vue.js,JavaScript|Rust|Angular|Node.js,False,0.0,0.4
+277,resume_000277,job_0278,Masters,Data Science,UC Berkeley,2018,Masters in Data Science|5+ years experience,Go|NoSQL|NLP|PowerBI|MongoDB|Rust|C++,TensorFlow|Computer Vision|Scikit-learn,True,0.8,1.0
+278,resume_000278,job_0279,Associate,Data Science,Tech University,2020,Masters in Computer Science,Node.js|Angular|Vue.js|Python|C#,Node.js|Angular|Flask,False,0.0,0.4
+279,resume_000279,job_0280,BTech,Computer Science,University of Washington,2013,Bachelors in Computer Science|5+ years experience,Java|Rust|C#,Python|Scikit-learn|C++|PyTorch,True,0.75,1.0
+280,resume_000280,job_0281,High School,Finance,Technical Institute,2008,Bachelors in any field,Testing|Debugging|Git|Agile|CI/CD|Scrum,Agile|Testing|Scrum|Git,False,0.0,0.4
+281,resume_000281,job_0282,Bachelors,Psychology,Tech University,2005,Masters in Computer Science,C++|HTML|Ruby|Rust|Angular|React,Ruby|C++|React,False,0.0,0.4
+282,resume_000282,job_0283,Masters,Computer Science,University of Washington,2024,Masters in Information Technology,Python|Ruby|Vue.js|HTML,Angular|C++|React|C#,False,0.0,0.4
+283,resume_000283,job_0284,MBA,English Literature,IIT Bombay,2010,Bachelors in Computer Science,Django|Vue.js|JavaScript|Java|Node.js,Rust|Go|C++|Angular,False,0.0,0.4
+284,resume_000284,job_0285,Masters,English Literature,University of Maryland,2015,Masters in Software Engineering|5+ years experience,PostgreSQL|Go|C#|PyTorch|MongoDB|Data Analysis|Tableau,PowerBI|Data Analysis|Ruby,False,0.0,0.4
+285,resume_000285,job_0286,Masters,Artificial Intelligence,Community College,2023,Doctorate in Mathematics|Research experience required|Publications preferred,PyTorch|SQL|TensorFlow|C#|Go|C++,Ruby|Python|TensorFlow,False,0.0,0.4
+286,resume_000286,job_0287,High School,Physics,NYU,2006,Bachelors in any Engineering,CSS|Node.js|Vue.js|Ruby|JavaScript|Go|Rust,C#|JavaScript|C++|Flask,False,0.0,0.4
+287,resume_000287,job_0288,Bachelors,Physics,University of Washington,2006,MBA in Data Science|5+ years experience,SQL|Rust|Computer Vision|NLP|Java,NLP|Scikit-learn|PowerBI|PostgreSQL|MongoDB,False,0.0,0.4
+288,resume_000288,job_0289,High School,Business Administration,University of Washington,2013,Diploma in any field,CI/CD|Testing|Git|Debugging|Agile|Scrum,Scrum|Debugging|CI/CD|Git,False,0.0,0.4
+289,resume_000289,job_0290,Bachelors,Psychology,Tech University,2021,PhD in Physics|Research experience required|Publications preferred,C#|NLP|Computer Vision|Scikit-learn|SQL|Python|JavaScript,Data Analysis|Go|SQL|JavaScript,False,0.0,0.4
+290,resume_000290,job_0291,High School,Business Administration,Tech University,2009,Bachelors in Information Technology,Django|Python|CSS|JavaScript|Ruby|Angular|Flask,C#|JavaScript|Django,False,0.0,0.4
+291,resume_000291,job_0292,Bachelors,Mechanical Engineering,Regional University,2014,Bachelors in any Engineering,C++|HTML|JavaScript|CSS,React|Python|Rust,False,0.0,0.4
+292,resume_000292,job_0293,Bachelors,Physics,Local Institute,2008,Bachelors in any Engineering,Python|C++|React|C#|Angular|Vue.js|Flask,Java|JavaScript|HTML,False,0.0,0.4
+293,resume_000293,job_0294,PhD,Artificial Intelligence,IIT Bombay,2010,Diploma in any field,Git|Debugging|CI/CD,Agile|Scrum|Debugging,False,0.0,0.4
+294,resume_000294,job_0295,BSc,English Literature,University of Michigan,2011,Masters in Information Technology,Flask|CSS|React,Angular|Rust|JavaScript,False,0.0,0.4
+295,resume_000295,job_0296,Masters,Electrical Engineering,Yale University,2016,Bachelors in Computer Science|5+ years experience,Data Analysis|MongoDB|JavaScript,Tableau|PyTorch|Computer Vision|Scikit-learn,False,0.0,0.4
+296,resume_000296,job_0297,BSc,English Literature,University of Texas,2019,Diploma in any field,Testing|Agile|Scrum|Git,Git|Debugging|CI/CD,False,0.0,0.4
+297,resume_000297,job_0298,Bachelors,Biology,City College,2022,Bachelors in Computer Science,Node.js|React|Django|Vue.js|C++,Go|Node.js|C#,False,0.0,0.4
+298,resume_000298,job_0299,BSc,Information Technology,Purdue University,2018,PhD in Data Science|Research experience required|Publications preferred,NLP|Data Analysis|Python|Ruby|Go,Scikit-learn|NoSQL|Tableau|Java,False,0.0,0.4
+299,resume_000299,job_0300,Bachelors,Business Administration,Engineering College,2020,Diploma in any field,Debugging|Git|Scrum|CI/CD|Agile|Testing,Testing|Scrum|Debugging,False,0.0,0.4
+300,resume_000300,job_0301,Masters,Psychology,MIT,2015,Bachelors in any field,Testing|Git|Scrum|CI/CD,Debugging|Git|Scrum|Agile,False,0.0,0.4
+301,resume_000301,job_0302,Doctorate,Electrical Engineering,Penn State,2023,Bachelors in Business Administration|5+ years experience,C++|Keras|Java|Go,SQL|MongoDB|Python,False,0.0,0.4
+302,resume_000302,job_0303,Bachelors,Software Engineering,NYU,2024,Diploma in any field,Git|Testing|Agile|Debugging,Git|CI/CD|Testing|Scrum|Debugging,False,0.0,0.4
+303,resume_000303,job_0304,Bachelors,Business Administration,UCLA,2021,Bachelors in Software Engineering,Go|Ruby|C++|Flask|C#,Vue.js|Django|Rust|CSS,False,0.0,0.4
+304,resume_000304,job_0305,Doctorate,Information Technology,UCLA,2010,Bachelors in any field,Scrum|Testing|Debugging|Agile|Git|CI/CD,Agile|Debugging|Git|Testing|Scrum,False,0.0,0.4
+305,resume_000305,job_0306,Diploma,Computer Science,Engineering College,2010,PhD in Mathematics|Research experience required|Publications preferred,JavaScript|Computer Vision|NLP,Tableau|Data Analysis|SQL,False,0.0,0.4
+306,resume_000306,job_0307,High School,Chemistry,Penn State,2009,Masters in Mathematics|Research experience required|Publications preferred,SQL|PyTorch|PowerBI,Rust|PowerBI|C#|TensorFlow,False,0.0,0.4
+307,resume_000307,job_0308,BSc,Chemistry,Community College,2017,Doctorate in Computer Science|Research experience required|Publications preferred,NoSQL|SQL|Ruby|PyTorch|Keras,Data Analysis|C#|MongoDB|C++|NLP,False,0.0,0.4
+308,resume_000308,job_0309,High School,Information Technology,Online University,2014,Bachelors in any Engineering,Ruby|Rust|Go|Java,Go|Flask|Node.js|Angular,False,0.0,0.4
+309,resume_000309,job_0310,BTech,Mathematics,NYU,2018,Bachelors in Computer Science|5+ years experience,NoSQL|C++|Data Analysis|SQL|Scikit-learn|Tableau|Computer Vision,Ruby|PyTorch|NLP|JavaScript,False,0.0,0.4
+310,resume_000310,job_0311,Bachelors,Physics,Online University,2015,PhD in Artificial Intelligence|Research experience required|Publications preferred,Data Analysis|Python|C#|PowerBI,PostgreSQL|PyTorch|NLP|SQL,False,0.0,0.4
+311,resume_000311,job_0312,Masters,Information Technology,University of Maryland,2022,Masters in Software Engineering,JavaScript|Angular|Python|HTML|React,C#|Flask|CSS|Python,False,0.0,0.4
+312,resume_000312,job_0313,Masters,Computer Science,NUS Singapore,2018,Bachelors in Information Technology,Rust|Go|Node.js,Django|Vue.js|Ruby|Node.js|Go,False,0.0,0.4
+313,resume_000313,job_0314,High School,Finance,Community College,2011,MBA in Software Engineering|5+ years experience,Python|JavaScript|PowerBI|C#,NoSQL|Computer Vision|C#|JavaScript|Data Analysis,False,0.0,0.4
+314,resume_000314,job_0315,Diploma,Psychology,Local Institute,2024,Diploma in any field,Testing|CI/CD|Debugging|Agile|Scrum|Git,CI/CD|Testing|Git,False,0.0,0.4
+315,resume_000315,job_0316,Diploma,Psychology,City College,2021,Bachelors in Computer Science,CSS|Node.js|Ruby,CSS|Node.js|Java,False,0.0,0.4
+316,resume_000316,job_0317,Masters,Business Administration,Yale University,2011,Bachelors in any field,Debugging|Git|Scrum|CI/CD|Testing|Agile,Git|CI/CD|Testing|Scrum|Agile,False,0.0,0.4
+317,resume_000317,job_0318,Associate,Electrical Engineering,Online University,2015,Masters in Computer Science,Angular|Node.js|Django,React|Python|Vue.js|Rust|Angular,False,0.0,0.4
+318,resume_000318,job_0319,Bachelors,Business Administration,University of Texas,2013,Doctorate in Data Science|Research experience required|Publications preferred,Tableau|TensorFlow|PowerBI|Data Analysis,C++|Tableau|Ruby,False,0.0,0.4
+319,resume_000319,job_0320,Associate,Artificial Intelligence,Local Institute,2015,Bachelors in Information Technology,Java|Ruby|CSS|JavaScript,C#|Flask|Rust|Django|Go,False,0.0,0.4
+320,resume_000320,job_0321,BTech,Biology,Engineering College,2013,Bachelors in Software Engineering,C++|Python|JavaScript|Rust|Go,Angular|Rust|Node.js|Django,False,0.0,0.4
+321,resume_000321,job_0322,High School,Finance,State University,2009,Bachelors in any Engineering,Java|CSS|React|Vue.js|Ruby,React|Ruby|C#|Flask,False,0.0,0.4
+322,resume_000322,job_0323,Bachelors,Physics,Purdue University,2010,MBA in Computer Science|5+ years experience,JavaScript|Python|Computer Vision,MongoDB|C++|SQL,False,0.0,0.4
+323,resume_000323,job_0324,High School,Data Science,University of Maryland,2006,Bachelors in any field,Testing|Agile|CI/CD,Debugging|Testing|Agile|Git|Scrum,False,0.0,0.4
+324,resume_000324,job_0325,Masters,Physics,Local Institute,2024,Bachelors in Information Technology,JavaScript|C#|Django|Python,Django|Ruby|Python|C#,False,0.0,0.4
+325,resume_000325,job_0326,Masters,Business Administration,City College,2019,Bachelors in Computer Science,Flask|C++|Angular|Vue.js|Java|Rust|C#,Java|CSS|HTML,False,0.0,0.4
+326,resume_000326,job_0327,Associate,Information Technology,Local Institute,2010,Bachelors in Computer Science|5+ years experience,NLP|TensorFlow|C#,Scikit-learn|NLP|Data Analysis|Python|MongoDB,False,0.0,0.4
+327,resume_000327,job_0328,Diploma,Business Administration,Online University,2016,Masters in Artificial Intelligence|Research experience required|Publications preferred,NLP|NoSQL|C++,PostgreSQL|Keras|Scikit-learn|PyTorch|NLP,False,0.0,0.4
+328,resume_000328,job_0329,PhD,Electrical Engineering,Yale University,2023,Doctorate in Data Science|Research experience required|Publications preferred,Ruby|PostgreSQL|Java|NLP,Go|PyTorch|NLP|C++|Keras,False,0.0,0.4
+329,resume_000329,job_0330,High School,Computer Science,Penn State,2008,Masters in Data Science|Research experience required|Publications preferred,PostgreSQL|SQL|Python|Java|Scikit-learn|PowerBI,Java|NLP|C++|Go,False,0.0,0.4
+330,resume_000330,job_0331,Associate,Finance,Local Institute,2020,Bachelors in any field,Git|Agile|CI/CD,Git|CI/CD|Debugging|Testing|Scrum,False,0.0,0.4
+331,resume_000331,job_0332,PhD,English Literature,Cornell University,2023,Bachelors in any Engineering,C++|Java|Rust,Rust|Java|Django|C++|Go,False,0.0,0.4
+332,resume_000332,job_0333,BTech,Electrical Engineering,UCLA,2020,MBA in Software Engineering|5+ years experience,Data Analysis|Ruby|Scikit-learn,C++|TensorFlow|C#,False,0.0,0.4
+333,resume_000333,job_0334,High School,Mathematics,University of Texas,2006,Diploma in any field,CI/CD|Git|Testing,Agile|Git|Scrum,False,0.0,0.4
+334,resume_000334,job_0335,High School,Information Technology,Online University,2006,Bachelors in Computer Science|5+ years experience,Ruby|NoSQL|JavaScript|PyTorch|Keras|Computer Vision|Python,Rust|Go|C++|MongoDB|Data Analysis,False,0.0,0.4
+335,resume_000335,job_0336,High School,Chemistry,Cornell University,2005,Masters in Software Engineering|5+ years experience,NoSQL|Ruby|Tableau|Java|PostgreSQL|Keras,Go|Computer Vision|TensorFlow|Scikit-learn,False,0.0,0.4
+336,resume_000336,job_0337,High School,Finance,University of Texas,2017,Doctorate in Physics|Research experience required|Publications preferred,JavaScript|Rust|SQL,Data Analysis|Scikit-learn|Computer Vision|Go|Tableau,False,0.0,0.4
+337,resume_000337,job_0338,Masters,Software Engineering,Stanford University,2013,MBA in Software Engineering|5+ years experience,NoSQL|Data Analysis|PowerBI,Computer Vision|C#|Go,True,0.8,1.0
+338,resume_000338,job_0339,High School,Biology,Boston University,2010,Bachelors in Information Technology,Java|Node.js|Angular|Python,C#|Java|Flask|Rust,False,0.0,0.4
+339,resume_000339,job_0340,High School,Chemistry,University of Maryland,2013,Masters in Data Science|5+ years experience,NoSQL|Go|Data Analysis|PowerBI|SQL|TensorFlow|Python,Computer Vision|Rust|Tableau|Scikit-learn|PowerBI,False,0.0,0.4
+340,resume_000340,job_0341,Bachelors,English Literature,Engineering College,2024,Doctorate in Computer Science|Research experience required|Publications preferred,NoSQL|MongoDB|Java,MongoDB|NLP|NoSQL|C++,False,0.0,0.4
+341,resume_000341,job_0342,Masters,Finance,State University,2021,Masters in Business Administration|5+ years experience,Rust|JavaScript|Python|NoSQL|PyTorch,SQL|Data Analysis|Tableau,False,0.0,0.4
+342,resume_000342,job_0343,MBA,Chemistry,Harvard University,2023,MBA in Data Science|5+ years experience,PowerBI|JavaScript|NLP,Scikit-learn|MongoDB|Java|PyTorch|Computer Vision,False,0.0,0.4
+343,resume_000343,job_0344,Bachelors,Chemistry,Boston University,2011,Bachelors in Software Engineering,Java|CSS|Go|Ruby|Rust,Java|Ruby|HTML|JavaScript|Vue.js,False,0.0,0.4
+344,resume_000344,job_0345,Associate,Data Science,Technical Institute,2021,MBA in Software Engineering|5+ years experience,C++|NoSQL|Data Analysis|Go|Rust|Scikit-learn|Ruby,MongoDB|Computer Vision|TensorFlow|Java,False,0.0,0.4
+345,resume_000345,job_0346,MBA,Business Administration,Purdue University,2018,Bachelors in Information Technology,Node.js|Django|Vue.js|CSS|Java|C++|Rust,JavaScript|Go|CSS,False,0.0,0.4
+346,resume_000346,job_0347,Bachelors,Artificial Intelligence,Engineering College,2008,Bachelors in any field,Debugging|Testing|Agile|CI/CD|Scrum|Git,Debugging|Git|Scrum|Testing,False,0.0,0.4
+347,resume_000347,job_0348,Doctorate,Psychology,Purdue University,2020,Diploma in any field,Testing|Debugging|CI/CD|Agile|Scrum|Git,Agile|Scrum|Debugging|CI/CD,False,0.0,0.4
+348,resume_000348,job_0349,Masters,Artificial Intelligence,NYU,2014,Bachelors in Software Engineering|5+ years experience,PyTorch|Ruby|Tableau|C#|Data Analysis|Rust|Java,Scikit-learn|Data Analysis|C#,False,0.0,0.4
+349,resume_000349,job_0350,High School,Electrical Engineering,Engineering College,2010,Bachelors in any Engineering,C++|HTML|Python|Go|Rust,HTML|CSS|Ruby,False,0.0,0.4
+350,resume_000350,job_0351,Masters,Physics,NUS Singapore,2014,Bachelors in Software Engineering,Vue.js|Node.js|Java|HTML|Rust|Python,C++|C#|Python,False,0.0,0.4
+351,resume_000351,job_0352,Bachelors,Business Administration,NYU,2011,Bachelors in any field,Agile|Git|Testing|Scrum|Debugging,Debugging|Git|CI/CD|Testing|Agile,False,0.0,0.4
+352,resume_000352,job_0353,Masters,English Literature,Boston University,2015,Bachelors in Information Technology,Python|C#|Ruby|Flask|HTML,JavaScript|C++|Node.js|Rust,False,0.0,0.4
+353,resume_000353,job_0354,High School,Biology,Online University,2007,Bachelors in any field,Scrum|CI/CD|Debugging|Git,CI/CD|Git|Testing|Agile|Scrum,False,0.0,0.4
+354,resume_000354,job_0355,High School,Mechanical Engineering,Technical Institute,2008,Doctorate in Physics|Research experience required|Publications preferred,NoSQL|PostgreSQL|SQL|Rust|Python,C#|TensorFlow|PyTorch,False,0.0,0.4
+355,resume_000355,job_0356,Associate,Business Administration,Tech University,2020,Masters in Computer Science,Rust|Python|Java|Django|C#|CSS,Node.js|Angular|Rust,False,0.0,0.4
+356,resume_000356,job_0357,Diploma,Psychology,Regional University,2020,Doctorate in Physics|Research experience required|Publications preferred,Python|TensorFlow|Ruby|Java|C#|Scikit-learn|Rust,C#|Keras|Ruby|Java|TensorFlow,False,0.0,0.4
+357,resume_000357,job_0358,BSc,Computer Science,Regional University,2014,Masters in Artificial Intelligence|Research experience required|Publications preferred,C++|Tableau|Ruby|PostgreSQL,Scikit-learn|PyTorch|TensorFlow|Keras,False,0.0,0.4
+358,resume_000358,job_0359,Bachelors,Information Technology,Local Institute,2008,Bachelors in Computer Science,C#|React|C++|Flask,C++|Go|Rust|Java|Django,False,0.0,0.4
+359,resume_000359,job_0360,MBA,Electrical Engineering,Cambridge University,2021,Bachelors in Computer Science,Python|Node.js|Flask|Java|C++,C#|Node.js|C++,False,0.0,0.4
+360,resume_000360,job_0361,Bachelors,Data Science,Online University,2021,PhD in Computer Science|Research experience required|Publications preferred,Computer Vision|Java|Go|C++|Tableau|MongoDB,C++|TensorFlow|Java|JavaScript,False,0.0,0.4
+361,resume_000361,job_0362,Masters,Chemistry,UCLA,2024,Bachelors in any field,Git|Debugging|Agile|Scrum|CI/CD,Scrum|Debugging|Agile|Testing|Git,False,0.0,0.4
+362,resume_000362,job_0363,Associate,Data Science,Tech University,2023,Masters in Artificial Intelligence|Research experience required|Publications preferred,PyTorch|Ruby|PostgreSQL|Python,C++|Go|MongoDB|NoSQL|Keras,False,0.0,0.4
+363,resume_000363,job_0364,Associate,Artificial Intelligence,Local Institute,2020,MBA in Data Science|5+ years experience,Go|MongoDB|Rust|Computer Vision|C++|Scikit-learn,SQL|C++|MongoDB,False,0.0,0.4
+364,resume_000364,job_0365,Masters,Biology,Cornell University,2018,Doctorate in Mathematics|Research experience required|Publications preferred,NLP|PyTorch|SQL,PyTorch|SQL|Rust|PostgreSQL|Computer Vision,False,0.0,0.4
+365,resume_000365,job_0366,BTech,Software Engineering,UCLA,2024,Bachelors in Computer Science,CSS|Vue.js|Java,HTML|React|Vue.js|Flask,False,0.0,0.4
+366,resume_000366,job_0367,MBA,Mechanical Engineering,NUS Singapore,2019,Masters in Business Administration|5+ years experience,Scikit-learn|Go|NLP|C++,Computer Vision|NoSQL|TensorFlow,False,0.0,0.4
+367,resume_000367,job_0368,Associate,Mathematics,Regional University,2022,Bachelors in Information Technology,Django|Rust|React|C#|JavaScript|HTML|Java,React|Rust|HTML,False,0.0,0.4
+368,resume_000368,job_0369,Bachelors,Data Science,State University,2007,Bachelors in Computer Science,C++|Django|Java|Vue.js|React,HTML|C++|C#|Vue.js,True,0.8,1.0
+369,resume_000369,job_0370,BSc,Finance,Community College,2022,Bachelors in any field,Git|CI/CD|Testing|Agile|Scrum|Debugging,Git|Debugging|Agile|Scrum,False,0.0,0.4
+370,resume_000370,job_0371,Diploma,English Literature,Engineering College,2017,Masters in Information Technology,CSS|Vue.js|React,CSS|Rust|React|JavaScript|Flask,False,0.0,0.4
+371,resume_000371,job_0372,MBA,Mathematics,University of Illinois,2019,Masters in Computer Science,Java|JavaScript|Flask,Node.js|Django|CSS|Angular,False,0.0,0.4
+372,resume_000372,job_0373,Masters,Mechanical Engineering,Stanford University,2016,Masters in Information Technology,Rust|C++|HTML,Angular|CSS|Java|Node.js|Flask,False,0.0,0.4
+373,resume_000373,job_0374,High School,Physics,Technical Institute,2011,Bachelors in Software Engineering,Python|Ruby|Go|Angular|Flask|HTML,C++|Django|Rust|Java|Node.js,False,0.0,0.4
+374,resume_000374,job_0375,Bachelors,Electrical Engineering,Local Institute,2018,Bachelors in Software Engineering,Node.js|Go|C++|Rust|Vue.js,Go|C#|HTML,False,0.0,0.4
+375,resume_000375,job_0376,MBA,Chemistry,University of Washington,2019,Masters in Physics|Research experience required|Publications preferred,Data Analysis|Scikit-learn|TensorFlow,Data Analysis|MongoDB|NoSQL,False,0.0,0.4
+376,resume_000376,job_0377,Masters,Physics,Regional University,2018,Bachelors in Computer Science,Django|C#|Angular|React|Rust|Vue.js,Ruby|HTML|Python|Vue.js|Node.js,False,0.0,0.4
+377,resume_000377,job_0378,Bachelors,Mathematics,Local Institute,2013,Bachelors in any Engineering,Flask|HTML|Angular|Node.js|Vue.js|Python|React,Node.js|Rust|JavaScript,False,0.0,0.4
+378,resume_000378,job_0379,Masters,Psychology,University of Illinois,2016,Masters in Artificial Intelligence|Research experience required|Publications preferred,TensorFlow|PyTorch|Ruby|PowerBI|Rust|NLP,C++|C#|Go,False,0.0,0.4
+379,resume_000379,job_0380,Masters,Business Administration,Penn State,2018,Bachelors in Computer Science,React|JavaScript|Python|C#,Ruby|Vue.js|Flask|Python,False,0.0,0.4
+380,resume_000380,job_0381,Diploma,Chemistry,State University,2010,Doctorate in Physics|Research experience required|Publications preferred,JavaScript|Computer Vision|Keras|PowerBI|NLP,C#|Rust|C++|MongoDB|Data Analysis,False,0.0,0.4
+381,resume_000381,job_0382,Associate,Psychology,Technical Institute,2014,PhD in Physics|Research experience required|Publications preferred,Scikit-learn|PowerBI|Data Analysis,NLP|Rust|Computer Vision|Go|C#,False,0.0,0.4
+382,resume_000382,job_0383,Masters,Business Administration,University of Illinois,2014,Doctorate in Physics|Research experience required|Publications preferred,C++|Scikit-learn|PostgreSQL|Computer Vision|NoSQL,Rust|TensorFlow|C#|Keras|NoSQL,False,0.0,0.4
+383,resume_000383,job_0384,Diploma,Psychology,Regional University,2010,Bachelors in any field,Scrum|Testing|CI/CD|Agile,Debugging|Scrum|Git|Testing|CI/CD,False,0.0,0.4
+384,resume_000384,job_0385,High School,Psychology,Cornell University,2008,MBA in Business Administration|5+ years experience,Java|TensorFlow|JavaScript|NoSQL|PostgreSQL|Computer Vision,Computer Vision|C++|Ruby|TensorFlow,False,0.0,0.4
+385,resume_000385,job_0386,Bachelors,Electrical Engineering,Online University,2019,Diploma in any field,Git|Agile|CI/CD,Agile|Git|CI/CD|Testing|Debugging,False,0.0,0.4
+386,resume_000386,job_0387,Masters,Artificial Intelligence,University of Washington,2018,Bachelors in Data Science|5+ years experience,SQL|NoSQL|C#|TensorFlow|Ruby,Data Analysis|Scikit-learn|PyTorch|Go|JavaScript,False,0.0,0.4
+387,resume_000387,job_0388,BTech,English Literature,Online University,2023,Masters in Computer Science|5+ years experience,PowerBI|Tableau|Rust|JavaScript|SQL|Go|C#,Ruby|Java|NLP|Computer Vision|TensorFlow,False,0.0,0.4
+388,resume_000388,job_0389,Bachelors,Finance,Local Institute,2008,PhD in Artificial Intelligence|Research experience required|Publications preferred,TensorFlow|PyTorch|NoSQL|NLP,Computer Vision|Go|Tableau,True,0.75,1.0
+389,resume_000389,job_0390,Bachelors,Mechanical Engineering,University of Texas,2016,Doctorate in Data Science|Research experience required|Publications preferred,Tableau|SQL|Rust|Keras,PowerBI|SQL|JavaScript|Python|NoSQL,False,0.0,0.4
+390,resume_000390,job_0391,MBA,Physics,Oxford University,2021,Bachelors in Computer Science,Java|Python|Ruby,CSS|HTML|Ruby,False,0.0,0.4
+391,resume_000391,job_0392,High School,Mathematics,Regional University,2008,Bachelors in Software Engineering,Ruby|C#|JavaScript,CSS|HTML|Ruby|Rust|JavaScript,False,0.0,0.4
+392,resume_000392,job_0393,MBA,Artificial Intelligence,Cornell University,2011,MBA in Business Administration|5+ years experience,Computer Vision|PyTorch|TensorFlow|Data Analysis|MongoDB,Computer Vision|Ruby|Scikit-learn|NoSQL,False,0.0,0.4
+393,resume_000393,job_0394,Bachelors,Artificial Intelligence,Penn State,2007,Bachelors in Data Science|5+ years experience,C++|NoSQL|Java|SQL|Keras|Tableau,NoSQL|C++|C#|Tableau,False,0.0,0.4
+394,resume_000394,job_0395,BSc,Artificial Intelligence,Engineering College,2021,Bachelors in Software Engineering,Ruby|Go|Java,CSS|Vue.js|Java,False,0.0,0.4
+395,resume_000395,job_0396,Masters,Mechanical Engineering,Community College,2019,Doctorate in Artificial Intelligence|Research experience required|Publications preferred,JavaScript|SQL|NoSQL,PowerBI|TensorFlow|Python|Scikit-learn,False,0.0,0.4
+396,resume_000396,job_0397,MBA,Electrical Engineering,Georgia Tech,2021,Bachelors in any field,Debugging|Scrum|Testing,Debugging|Git|CI/CD,False,0.0,0.4
+397,resume_000397,job_0398,Bachelors,Software Engineering,University of Illinois,2008,Bachelors in Computer Science,CSS|Django|Go|Node.js|C#,C#|Ruby|Vue.js|Java|HTML,False,0.0,0.4
+398,resume_000398,job_0399,Bachelors,Business Administration,Local Institute,2024,Masters in Computer Science,Node.js|Angular|JavaScript|Go|Vue.js|Django,Java|React|Ruby,False,0.0,0.4
+399,resume_000399,job_0400,Bachelors,English Literature,Penn State,2018,Bachelors in any field,CI/CD|Git|Debugging|Agile|Testing|Scrum,Scrum|Agile|CI/CD|Testing|Git,False,0.0,0.4
+400,resume_000400,job_0401,High School,Mechanical Engineering,Tech University,2012,Diploma in any field,Testing|Git|Debugging|CI/CD|Agile,Agile|CI/CD|Git,False,0.0,0.4
+401,resume_000401,job_0402,Masters,Electrical Engineering,University of Maryland,2021,Bachelors in Information Technology,Go|JavaScript|Java|Node.js,React|Flask|Vue.js|Java|Go,False,0.0,0.4
+402,resume_000402,job_0403,High School,Physics,Local Institute,2008,Diploma in any field,Testing|Scrum|CI/CD|Agile|Git|Debugging,Git|Agile|Debugging,False,0.0,0.4
+403,resume_000403,job_0404,Doctorate,Psychology,MIT,2013,Bachelors in Software Engineering|5+ years experience,PowerBI|PostgreSQL|Go|JavaScript|PyTorch|SQL,NoSQL|Computer Vision|Python,False,0.0,0.4
+404,resume_000404,job_0405,Doctorate,Biology,NUS Singapore,2017,Bachelors in Information Technology,Rust|C++|C#|Angular|Go|Python|Ruby,C++|Vue.js|Flask,False,0.0,0.4
+405,resume_000405,job_0406,Diploma,Mechanical Engineering,Local Institute,2021,Diploma in any field,CI/CD|Debugging|Testing|Git|Scrum|Agile,Testing|Scrum|Git|Agile,False,0.0,0.4
+406,resume_000406,job_0407,Diploma,English Literature,Local Institute,2011,Masters in Software Engineering,Python|JavaScript|C#|Node.js|C++|Rust,HTML|C++|React|CSS,False,0.0,0.4
+407,resume_000407,job_0408,Associate,Electrical Engineering,Local Institute,2012,Bachelors in any Engineering,CSS|Django|Flask|JavaScript|Angular,Angular|Node.js|HTML,False,0.0,0.4
+408,resume_000408,job_0409,Doctorate,Artificial Intelligence,Oxford University,2012,Doctorate in Mathematics|Research experience required|Publications preferred,Rust|Go|PostgreSQL|Java|Python,TensorFlow|Keras|Ruby|Data Analysis,False,0.0,0.4
+409,resume_000409,job_0410,Bachelors,Chemistry,Tech University,2015,Bachelors in any field,Agile|CI/CD|Scrum|Debugging|Testing|Git,Scrum|Agile|Git|Debugging|CI/CD,False,0.0,0.4
+410,resume_000410,job_0411,Masters,Data Science,University of Maryland,2019,Masters in Computer Science|Research experience required|Publications preferred,C++|Ruby|PowerBI|Go|Keras|Tableau|MongoDB,SQL|MongoDB|NoSQL|C++,False,0.0,0.4
+411,resume_000411,job_0412,Masters,Psychology,Harvard University,2011,Bachelors in Computer Science,CSS|Ruby|C#|React,JavaScript|C#|Ruby,False,0.0,0.4
+412,resume_000412,job_0413,Diploma,Electrical Engineering,City College,2012,Diploma in any field,CI/CD|Debugging|Testing|Agile,Debugging|Scrum|Git|Agile|CI/CD,False,0.0,0.4
+413,resume_000413,job_0414,PhD,Data Science,Caltech,2015,MBA in Computer Science|5+ years experience,Java|C#|Data Analysis|PowerBI|MongoDB|PyTorch,NLP|PostgreSQL|PyTorch|Scikit-learn,False,0.0,0.4
+414,resume_000414,job_0415,BSc,English Literature,Technical Institute,2019,Bachelors in any Engineering,HTML|Node.js|Ruby|Django,Django|CSS|C++|C#|Java,False,0.0,0.4
+415,resume_000415,job_0416,MBA,Biology,Georgia Tech,2021,Diploma in any field,Testing|Debugging|Scrum,Scrum|Agile|Git|CI/CD|Testing,False,0.0,0.4
+416,resume_000416,job_0417,Bachelors,Computer Science,Regional University,2015,Diploma in any field,Debugging|Git|CI/CD,Testing|Git|CI/CD|Agile,False,0.0,0.4
+417,resume_000417,job_0418,Doctorate,Electrical Engineering,Cambridge University,2014,Bachelors in any field,Debugging|Agile|Git|Testing|CI/CD|Scrum,Git|Agile|CI/CD|Testing,False,0.0,0.4
+418,resume_000418,job_0419,Bachelors,Data Science,Technical Institute,2011,Diploma in any field,CI/CD|Debugging|Testing|Scrum|Agile|Git,Agile|Testing|Debugging,False,0.0,0.4
+419,resume_000419,job_0420,Bachelors,Biology,Purdue University,2023,MBA in Data Science|5+ years experience,Ruby|PostgreSQL|Keras,Tableau|Computer Vision|C++,False,0.0,0.4
+420,resume_000420,job_0421,Bachelors,Information Technology,Regional University,2007,Bachelors in Computer Science,Flask|Python|C#|CSS,Ruby|Flask|Node.js,True,0.8,1.0
+421,resume_000421,job_0422,BSc,Data Science,State University,2016,Masters in Information Technology,CSS|Flask|Node.js|Angular|JavaScript|HTML,HTML|Django|Rust|Vue.js|Flask,False,0.0,0.4
+422,resume_000422,job_0423,Masters,Data Science,IIT Delhi,2019,Bachelors in Computer Science,Vue.js|React|Python|CSS|Rust|C#,JavaScript|Flask|CSS|Node.js|Python,False,0.0,0.4
+423,resume_000423,job_0424,Associate,Chemistry,Regional University,2018,Bachelors in any field,Testing|Debugging|Git|Scrum|CI/CD|Agile,Git|Debugging|Agile|Testing|CI/CD,False,0.0,0.4
+424,resume_000424,job_0425,MBA,Data Science,Purdue University,2019,Bachelors in any field,Scrum|CI/CD|Agile,Git|Testing|Scrum|Agile,False,0.0,0.4
+425,resume_000425,job_0426,Bachelors,Information Technology,University of Texas,2009,Bachelors in Computer Science,Vue.js|JavaScript|Python|Node.js|Flask|C#|Go,Vue.js|JavaScript|Go,False,0.0,0.4
+426,resume_000426,job_0427,Masters,Computer Science,City College,2013,Bachelors in any field,Testing|CI/CD|Git|Agile|Debugging|Scrum,Testing|CI/CD|Git|Agile,False,0.0,0.4
+427,resume_000427,job_0428,Doctorate,English Literature,University of Michigan,2014,Bachelors in any field,Debugging|Agile|Scrum|CI/CD|Testing|Git,Debugging|Testing|Agile,False,0.0,0.4
+428,resume_000428,job_0429,Doctorate,Chemistry,University of Washington,2018,Diploma in any field,CI/CD|Testing|Scrum,Agile|Git|Testing|Debugging|Scrum,False,0.0,0.4
+429,resume_000429,job_0430,Diploma,Psychology,Online University,2015,Bachelors in Business Administration|5+ years experience,Ruby|PostgreSQL|Data Analysis,PyTorch|JavaScript|NLP,False,0.0,0.4
+430,resume_000430,job_0431,Bachelors,Psychology,Engineering College,2021,Masters in Computer Science,Vue.js|HTML|CSS|Ruby|Flask|C#|Rust,Rust|Vue.js|Ruby|Flask,False,0.0,0.4
+431,resume_000431,job_0432,Masters,Computer Science,NUS Singapore,2012,Masters in Mathematics|Research experience required|Publications preferred,Python|Ruby|Computer Vision,NoSQL|NLP|PostgreSQL|JavaScript|Data Analysis,False,0.0,0.4
+432,resume_000432,job_0433,High School,Psychology,Community College,2011,Bachelors in Computer Science|5+ years experience,SQL|Keras|Go,Python|Rust|PowerBI|TensorFlow,False,0.0,0.4
+433,resume_000433,job_0434,Associate,Electrical Engineering,City College,2011,Bachelors in Computer Science,Node.js|Python|C#|Rust|CSS|Angular,Python|C++|Flask,False,0.0,0.4
+434,resume_000434,job_0435,Diploma,Data Science,Regional University,2019,Bachelors in Software Engineering|5+ years experience,Tableau|Data Analysis|Ruby|JavaScript|C#|PostgreSQL|NoSQL,Data Analysis|Rust|MongoDB|TensorFlow,False,0.0,0.4
+435,resume_000435,job_0436,PhD,Biology,Carnegie Mellon University,2018,Diploma in any field,Debugging|Git|Scrum|Agile|CI/CD|Testing,Debugging|Testing|CI/CD,False,0.0,0.4
+436,resume_000436,job_0437,Bachelors,Mechanical Engineering,Community College,2005,Bachelors in Information Technology,Python|Node.js|C++,Flask|Java|C++|CSS|JavaScript,False,0.0,0.4
+437,resume_000437,job_0438,Masters,Computer Science,Local Institute,2016,Diploma in any field,Git|CI/CD|Agile|Testing,Scrum|Testing|Agile,False,0.0,0.4
+438,resume_000438,job_0439,MBA,Chemistry,Stanford University,2020,PhD in Computer Science|Research experience required|Publications preferred,NLP|Scikit-learn|JavaScript,Java|SQL|PowerBI,False,0.0,0.4
+439,resume_000439,job_0440,High School,Computer Science,Online University,2011,Masters in Mathematics|Research experience required|Publications preferred,Tableau|PowerBI|Python|SQL,SQL|Computer Vision|C++|Scikit-learn,False,0.0,0.4
+440,resume_000440,job_0441,Associate,Chemistry,State University,2017,Bachelors in any field,Git|Testing|Debugging,Agile|Testing|Debugging|Scrum|CI/CD,False,0.0,0.4
+441,resume_000441,job_0442,BTech,Artificial Intelligence,City College,2012,PhD in Data Science|Research experience required|Publications preferred,Computer Vision|MongoDB|Keras|PyTorch|C#|Tableau|Rust,Tableau|Scikit-learn|PyTorch|Keras,False,0.0,0.4
+442,resume_000442,job_0443,Doctorate,Computer Science,Oxford University,2018,Bachelors in any field,Agile|Debugging|Testing|Git|CI/CD,Debugging|CI/CD|Testing,False,0.0,0.4
+443,resume_000443,job_0444,High School,Electrical Engineering,UCLA,2012,Doctorate in Artificial Intelligence|Research experience required|Publications preferred,PowerBI|Rust|Tableau,Tableau|Go|Rust|NoSQL,False,0.0,0.4
+444,resume_000444,job_0445,Diploma,Chemistry,Online University,2013,Doctorate in Computer Science|Research experience required|Publications preferred,Keras|Python|PostgreSQL,C#|PyTorch|SQL,False,0.0,0.4
+445,resume_000445,job_0446,Bachelors,Artificial Intelligence,Cornell University,2010,MBA in Software Engineering|5+ years experience,Go|Python|Ruby|TensorFlow,Python|C#|NLP,False,0.0,0.4
+446,resume_000446,job_0447,Bachelors,Electrical Engineering,City College,2014,Masters in Software Engineering,Flask|HTML|Node.js|Java,C#|HTML|JavaScript,False,0.0,0.4
+447,resume_000447,job_0448,MBA,Biology,NYU,2015,Masters in Software Engineering|5+ years experience,PyTorch|C#|Scikit-learn|Rust|Java|TensorFlow|Computer Vision,MongoDB|Data Analysis|NoSQL,False,0.0,0.4
+448,resume_000448,job_0449,Bachelors,Finance,Technical Institute,2010,Bachelors in Computer Science,Node.js|React|CSS|Rust|Flask,CSS|C#|Angular|Go,False,0.0,0.4
+449,resume_000449,job_0450,High School,Software Engineering,City College,2008,MBA in Data Science|5+ years experience,Data Analysis|Ruby|Keras|TensorFlow|JavaScript|C#,PyTorch|SQL|MongoDB,False,0.0,0.4
+450,resume_000450,job_0451,Masters,Business Administration,Technical Institute,2019,Bachelors in Information Technology,Node.js|Django|Rust|Ruby|C#|Go,Ruby|Rust|C++,False,0.0,0.4
+451,resume_000451,job_0452,BSc,English Literature,UCLA,2014,Bachelors in any field,Git|Debugging|Testing|Agile,Testing|Agile|Scrum,False,0.0,0.4
+452,resume_000452,job_0453,Masters,Information Technology,Georgia Tech,2023,Bachelors in Software Engineering,C#|Flask|Django|Node.js|HTML|React|CSS,Angular|C#|Flask,False,0.0,0.4
+453,resume_000453,job_0454,BTech,Mechanical Engineering,University of Maryland,2022,Bachelors in Information Technology,Rust|Node.js|HTML|C++,Rust|React|Angular|Django,False,0.0,0.4
+454,resume_000454,job_0455,Diploma,Biology,Local Institute,2015,Bachelors in Information Technology,Go|Rust|HTML|React|Python|Ruby,C#|CSS|Node.js,False,0.0,0.4
+455,resume_000455,job_0456,Masters,Electrical Engineering,University of Washington,2016,Bachelors in Information Technology,Python|Angular|Django|CSS|JavaScript|Node.js|Ruby,Django|Go|C++|HTML|Java,False,0.0,0.4
+456,resume_000456,job_0457,Diploma,Software Engineering,Local Institute,2011,Bachelors in Computer Science,C++|Vue.js|React|JavaScript,CSS|Python|JavaScript,False,0.0,0.4
+457,resume_000457,job_0458,Bachelors,Finance,Penn State,2005,Bachelors in Computer Science,Flask|Go|JavaScript|Java|CSS,Flask|Rust|Node.js|Java|Go,False,0.0,0.4
+458,resume_000458,job_0459,Doctorate,Information Technology,University of Illinois,2023,Bachelors in any Engineering,Angular|CSS|C++|React|Node.js|Vue.js|Rust,Go|Python|JavaScript|Rust,False,0.0,0.4
+459,resume_000459,job_0460,Doctorate,Finance,Caltech,2024,Bachelors in Information Technology,Java|Node.js|CSS|C#|Vue.js|Rust|Ruby,Angular|Go|CSS|Django|JavaScript,False,0.0,0.4
+460,resume_000460,job_0461,BTech,Business Administration,Online University,2024,Bachelors in any field,Agile|Debugging|Scrum,Testing|Scrum|Git|Debugging|CI/CD,False,0.0,0.4
+461,resume_000461,job_0462,Bachelors,Chemistry,Online University,2019,MBA in Software Engineering|5+ years experience,Java|SQL|Python|JavaScript|Tableau|NLP|Ruby,NLP|Go|PowerBI|Java|Python,False,0.0,0.4
+462,resume_000462,job_0463,Bachelors,Electrical Engineering,Local Institute,2017,Masters in Artificial Intelligence|Research experience required|Publications preferred,C#|NoSQL|TensorFlow|Ruby|PostgreSQL|Python,C++|Ruby|PyTorch|PowerBI|NLP,False,0.0,0.4
+463,resume_000463,job_0464,PhD,Physics,Cornell University,2012,Masters in Computer Science|5+ years experience,Go|SQL|Java|MongoDB|C++|NLP|Keras,SQL|Java|Python|Tableau,False,0.0,0.4
+464,resume_000464,job_0465,High School,Mechanical Engineering,University of Michigan,2007,Bachelors in Computer Science|5+ years experience,C++|Ruby|Tableau|Java,MongoDB|C++|Scikit-learn|Data Analysis,False,0.0,0.4
+465,resume_000465,job_0466,Associate,Software Engineering,City College,2024,Bachelors in Computer Science,C++|Ruby|HTML|JavaScript,Django|Vue.js|Ruby,False,0.0,0.4
+466,resume_000466,job_0467,MBA,Software Engineering,UCLA,2020,Diploma in any field,Agile|CI/CD|Scrum,CI/CD|Git|Agile|Debugging|Testing,False,0.0,0.4
+467,resume_000467,job_0468,Diploma,Physics,Online University,2020,MBA in Software Engineering|5+ years experience,NoSQL|JavaScript|Scikit-learn|Python|SQL,MongoDB|Rust|PowerBI|Python,False,0.0,0.4
+468,resume_000468,job_0469,PhD,Information Technology,University of Washington,2021,Bachelors in Computer Science|5+ years experience,C#|Keras|NoSQL,Go|C#|NLP|PowerBI,False,0.0,0.4
+469,resume_000469,job_0470,Bachelors,Software Engineering,Local Institute,2021,MBA in Business Administration|5+ years experience,MongoDB|Computer Vision|PyTorch,Rust|Scikit-learn|Tableau,False,0.0,0.4
+470,resume_000470,job_0471,PhD,English Literature,Boston University,2013,Bachelors in Data Science|5+ years experience,Scikit-learn|Ruby|SQL|Python|JavaScript|NoSQL|Java,Java|C#|Go,False,0.0,0.4
+471,resume_000471,job_0472,Doctorate,Software Engineering,Purdue University,2011,Bachelors in Computer Science,Rust|Go|JavaScript|Angular,Angular|C#|CSS,False,0.0,0.4
+472,resume_000472,job_0473,Bachelors,Information Technology,Penn State,2011,Masters in Information Technology,CSS|Rust|Go|React,Flask|Django|JavaScript|HTML|Rust,True,0.75,1.0
+473,resume_000473,job_0474,MBA,Psychology,Stanford University,2022,Bachelors in Software Engineering,React|Go|Rust|C#,Angular|Go|React|CSS,False,0.0,0.4
+474,resume_000474,job_0475,High School,Software Engineering,University of Michigan,2011,Diploma in any field,CI/CD|Debugging|Scrum|Agile|Testing|Git,Testing|Git|CI/CD|Debugging|Scrum,False,0.0,0.4
+475,resume_000475,job_0476,Bachelors,Software Engineering,University of Illinois,2014,Masters in Software Engineering,Java|Vue.js|Go|Flask|Node.js,Rust|CSS|Python,True,0.75,1.0
+476,resume_000476,job_0477,Bachelors,Mathematics,Engineering College,2009,Bachelors in Software Engineering|5+ years experience,C++|JavaScript|NLP,Data Analysis|JavaScript|MongoDB|Go,False,0.0,0.4
+477,resume_000477,job_0478,BTech,Information Technology,Regional University,2018,Bachelors in any Engineering,JavaScript|Java|Vue.js|Angular|Ruby|CSS,Go|HTML|Node.js|CSS,False,0.0,0.4
+478,resume_000478,job_0479,Diploma,Computer Science,Engineering College,2023,PhD in Mathematics|Research experience required|Publications preferred,Computer Vision|PyTorch|PowerBI|Ruby|PostgreSQL|Keras|JavaScript,C#|Go|NoSQL|Ruby|MongoDB,False,0.0,0.4
+479,resume_000479,job_0480,Doctorate,Artificial Intelligence,University of Washington,2010,MBA in Data Science|5+ years experience,PowerBI|Tableau|C++|Ruby|JavaScript|PyTorch,NLP|C++|TensorFlow,False,0.0,0.4
+480,resume_000480,job_0481,Doctorate,Business Administration,Penn State,2020,PhD in Data Science|Research experience required|Publications preferred,Data Analysis|Java|C++,MongoDB|Python|NLP,False,0.0,0.4
+481,resume_000481,job_0482,Associate,Chemistry,Regional University,2024,Masters in Information Technology,Vue.js|Ruby|Flask|C++|HTML,Django|Go|Angular|Python|Ruby,False,0.0,0.4
+482,resume_000482,job_0483,Masters,Business Administration,NUS Singapore,2016,Masters in Computer Science|5+ years experience,TensorFlow|Rust|Keras|SQL|NoSQL|Computer Vision|Scikit-learn,Python|Scikit-learn|PowerBI,False,0.0,0.4
+483,resume_000483,job_0484,Diploma,Psychology,State University,2022,Bachelors in any Engineering,Django|Node.js|Angular|CSS|Java|Ruby,CSS|Vue.js|Flask|Node.js,False,0.0,0.4
+484,resume_000484,job_0485,Bachelors,Finance,University of Texas,2012,Doctorate in Physics|Research experience required|Publications preferred,Ruby|SQL|C++|NoSQL|Rust|MongoDB,Ruby|JavaScript|C++,False,0.0,0.4
+485,resume_000485,job_0486,Masters,Artificial Intelligence,NYU,2024,Bachelors in Software Engineering,CSS|HTML|Vue.js|Java|Flask,CSS|Java|Django,False,0.0,0.4
+486,resume_000486,job_0487,Diploma,Psychology,City College,2024,Bachelors in any field,Debugging|CI/CD|Testing|Git|Scrum|Agile,Scrum|Git|Testing,False,0.0,0.4
+487,resume_000487,job_0488,Doctorate,Biology,UCLA,2019,Masters in Software Engineering,Angular|Python|CSS,Go|Flask|CSS|HTML|Ruby,False,0.0,0.4
+488,resume_000488,job_0489,Bachelors,Finance,Boston University,2019,Doctorate in Computer Science|Research experience required|Publications preferred,SQL|Scikit-learn|C#|PyTorch|Rust|NoSQL|Tableau,C#|Tableau|PyTorch|PowerBI,False,0.0,0.4
+489,resume_000489,job_0490,Associate,Psychology,State University,2019,Bachelors in any field,CI/CD|Agile|Debugging|Testing|Scrum|Git,Agile|Debugging|Testing|Scrum,False,0.0,0.4
+490,resume_000490,job_0491,Bachelors,English Literature,Engineering College,2023,Bachelors in any Engineering,Python|React|Go|Ruby,CSS|Ruby|Django|Go,False,0.0,0.4
+491,resume_000491,job_0492,BSc,Information Technology,City College,2021,Bachelors in Computer Science,Java|Flask|Node.js|C#|Rust,Ruby|Angular|JavaScript|Rust|Node.js,False,0.0,0.4
+492,resume_000492,job_0493,Bachelors,Software Engineering,City College,2022,Doctorate in Physics|Research experience required|Publications preferred,C#|NLP|Computer Vision,Ruby|Java|C++|Keras|NoSQL,False,0.0,0.4
+493,resume_000493,job_0494,PhD,Finance,Carnegie Mellon University,2015,Bachelors in Data Science|5+ years experience,Java|C++|Rust|NLP,PyTorch|Tableau|Ruby|NLP,False,0.0,0.4
+494,resume_000494,job_0495,Associate,Physics,Tech University,2022,Bachelors in any Engineering,Node.js|Python|Java|Flask|Django|CSS,Rust|Python|Angular|Flask,False,0.0,0.4
+495,resume_000495,job_0496,Diploma,Information Technology,Tech University,2022,Bachelors in any Engineering,Angular|CSS|JavaScript|Java|Ruby|Django,Ruby|Go|Flask|Node.js|Python,False,0.0,0.4
+496,resume_000496,job_0497,BTech,Data Science,Purdue University,2023,PhD in Computer Science|Research experience required|Publications preferred,Tableau|Ruby|Python|PostgreSQL,Scikit-learn|C++|Java|C#,False,0.0,0.4
+497,resume_000497,job_0498,Bachelors,Physics,Engineering College,2011,PhD in Computer Science|Research experience required|Publications preferred,PyTorch|Keras|PostgreSQL|Ruby|Computer Vision|Python|C++,Java|MongoDB|PyTorch|PostgreSQL,False,0.0,0.4
+498,resume_000498,job_0499,BTech,Biology,Community College,2018,Bachelors in Software Engineering,Java|C++|Python,C#|CSS|Flask,False,0.0,0.4
+499,resume_000499,job_0500,Bachelors,Mathematics,Tech University,2009,Masters in Software Engineering,Django|Rust|Java|C#,Flask|Node.js|JavaScript|React|C++,False,0.0,0.4
+500,resume_000500,job_0501,Bachelors,Electrical Engineering,University of Illinois,2018,MBA in Data Science|5+ years experience,Python|Tableau|Rust|JavaScript|TensorFlow|C++,C++|PostgreSQL|Computer Vision|JavaScript|Scikit-learn,False,0.0,0.4
+501,resume_000501,job_0502,High School,Psychology,Cornell University,2005,Doctorate in Artificial Intelligence|Research experience required|Publications preferred,C++|PowerBI|Ruby|MongoDB|PyTorch|NoSQL,MongoDB|Keras|Data Analysis,False,0.0,0.4
+502,resume_000502,job_0503,Masters,English Literature,University of Michigan,2012,Bachelors in Information Technology,Django|Rust|Angular|JavaScript|C#|Python|React,C#|Vue.js|JavaScript|Flask|Go,False,0.0,0.4
+503,resume_000503,job_0504,Associate,Information Technology,State University,2024,Bachelors in Software Engineering,Flask|Node.js|Rust|JavaScript|CSS|Ruby|HTML,Angular|C#|Go|React|Node.js,False,0.0,0.4
+504,resume_000504,job_0505,PhD,Information Technology,University of Illinois,2022,Masters in Computer Science|Research experience required|Publications preferred,Rust|JavaScript|Ruby,Java|JavaScript|PyTorch|PostgreSQL|NoSQL,False,0.0,0.4
+505,resume_000505,job_0506,MBA,Physics,Yale University,2024,Bachelors in any Engineering,C++|Go|Python|Angular|CSS|Flask|HTML,Node.js|C++|CSS|Vue.js|React,False,0.0,0.4
+506,resume_000506,job_0507,Associate,Computer Science,Local Institute,2012,Bachelors in any field,Scrum|Agile|Debugging,CI/CD|Debugging|Testing,False,0.0,0.4
+507,resume_000507,job_0508,PhD,Electrical Engineering,Boston University,2013,Doctorate in Data Science|Research experience required|Publications preferred,PyTorch|TensorFlow|Go|Python|NLP|Data Analysis,PowerBI|MongoDB|Java|SQL,False,0.0,0.4
+508,resume_000508,job_0509,Diploma,Computer Science,Community College,2010,Masters in Information Technology,Python|Ruby|Node.js,Django|Ruby|Python,False,0.0,0.4
+509,resume_000509,job_0510,Doctorate,Data Science,Purdue University,2018,Bachelors in Information Technology,C#|Django|Vue.js,Rust|CSS|Go|Ruby,False,0.0,0.4
+510,resume_000510,job_0511,Bachelors,Finance,Regional University,2011,Bachelors in Computer Science,Flask|Python|Ruby|Node.js|C++,Go|C#|Python,False,0.0,0.4
+511,resume_000511,job_0512,Masters,English Literature,University of Michigan,2012,Bachelors in Computer Science,CSS|React|Rust|Django|Vue.js|JavaScript,Django|React|Node.js|Flask,False,0.0,0.4
+512,resume_000512,job_0513,Bachelors,Finance,Boston University,2006,Masters in Data Science|Research experience required|Publications preferred,Tableau|Python|Computer Vision|NoSQL|PyTorch|MongoDB,JavaScript|Computer Vision|Rust|C#,False,0.0,0.4
+513,resume_000513,job_0514,Associate,Artificial Intelligence,City College,2014,Bachelors in Software Engineering,Go|Rust|Node.js|Django|Java|React,Ruby|C++|Flask|Angular|Vue.js,False,0.0,0.4
+514,resume_000514,job_0515,Bachelors,Software Engineering,Tech University,2012,Bachelors in Computer Science,Python|Angular|C++|Java|CSS|Go,Angular|Node.js|Vue.js|C++,False,0.0,0.4
+515,resume_000515,job_0516,MBA,Computer Science,Purdue University,2016,Bachelors in Information Technology,React|Ruby|Node.js|Go|C++,Java|JavaScript|Python|Flask,False,0.0,0.4
+516,resume_000516,job_0517,Bachelors,Mathematics,University of Illinois,2007,Masters in Information Technology,Angular|Java|HTML|Vue.js|Python,C#|Ruby|HTML|Node.js|Flask,False,0.0,0.4
+517,resume_000517,job_0518,Associate,Finance,Community College,2013,Bachelors in Data Science|5+ years experience,C++|C#|PowerBI,Data Analysis|Go|Tableau,False,0.0,0.4
+518,resume_000518,job_0519,Diploma,English Literature,Tech University,2011,Diploma in any field,Agile|Testing|Debugging|Git|Scrum|CI/CD,Testing|Scrum|Debugging|Agile,False,0.0,0.4
+519,resume_000519,job_0520,Masters,English Literature,University of Illinois,2011,Bachelors in any field,Scrum|Agile|Debugging|Git|CI/CD|Testing,CI/CD|Debugging|Git|Testing|Agile,False,0.0,0.4
+520,resume_000520,job_0521,Diploma,Finance,Online University,2016,Masters in Computer Science|5+ years experience,Data Analysis|Go|PowerBI|Python,SQL|MongoDB|Tableau|TensorFlow|PyTorch,False,0.0,0.4
+521,resume_000521,job_0522,Bachelors,Finance,Cornell University,2005,MBA in Software Engineering|5+ years experience,Java|Rust|Go|PostgreSQL|C++,PowerBI|Keras|Tableau,False,0.0,0.4
+522,resume_000522,job_0523,Masters,Mathematics,IIT Bombay,2014,Doctorate in Mathematics|Research experience required|Publications preferred,TensorFlow|JavaScript|Python|C#|PostgreSQL,C#|NLP|SQL|NoSQL,True,0.75,1.0
+523,resume_000523,job_0524,PhD,Information Technology,University of Michigan,2015,Bachelors in Information Technology,Node.js|JavaScript|CSS|Vue.js|Java|Ruby,C++|React|Django|Flask,True,0.8,1.0
+524,resume_000524,job_0525,High School,Computer Science,Penn State,2006,MBA in Computer Science|5+ years experience,NLP|Java|Keras|Computer Vision|NoSQL|Go|Python,Python|Computer Vision|TensorFlow,True,0.75,1.0
+525,resume_000525,job_0526,Bachelors,Information Technology,Technical Institute,2007,Masters in Information Technology,Flask|C#|HTML|C++|Python|Angular,Vue.js|Flask|Angular|Java|Go,True,0.8,1.0
+526,resume_000526,job_0527,Bachelors,English Literature,Community College,2017,Bachelors in Software Engineering|5+ years experience,Ruby|NLP|Computer Vision,Java|Tableau|TensorFlow,True,0.8,1.0
+527,resume_000527,job_0528,Doctorate,Business Administration,NUS Singapore,2021,MBA in Business Administration|5+ years experience,PostgreSQL|PyTorch|Rust|MongoDB|TensorFlow,PostgreSQL|MongoDB|C++|Java,True,0.8,1.0
+528,resume_000528,job_0529,Bachelors,Chemistry,Online University,2007,Bachelors in Computer Science,Flask|Python|HTML,C#|Java|Node.js|Angular|Go,True,0.8,1.0
+529,resume_000529,job_0530,High School,Finance,Online University,2017,Bachelors in Information Technology,Vue.js|React|Java|Angular|C++|JavaScript|C#,C#|Flask|Go|React|Rust,True,0.75,1.0
+530,resume_000530,job_0531,High School,Business Administration,University of Washington,2014,Masters in Business Administration|5+ years experience,Scikit-learn|MongoDB|Python|NLP|JavaScript,Rust|C#|NoSQL|Go|Java,True,0.75,1.0
+531,resume_000531,job_0532,High School,Information Technology,Online University,2005,Bachelors in Information Technology,C++|Ruby|Node.js,Django|C++|JavaScript,True,0.75,1.0
+532,resume_000532,job_0533,Bachelors,Mechanical Engineering,Cornell University,2007,Bachelors in Computer Science,Rust|Python|Node.js|Ruby,JavaScript|Angular|C#,True,0.8,1.0
+533,resume_000533,job_0534,Bachelors,Data Science,Engineering College,2011,Bachelors in Data Science|5+ years experience,Computer Vision|Keras|Go|PowerBI|TensorFlow|Scikit-learn|NLP,PowerBI|C++|Scikit-learn|MongoDB,True,0.8,1.0
+534,resume_000534,job_0535,Bachelors,Information Technology,Local Institute,2017,Bachelors in Information Technology,Node.js|Angular|Vue.js|CSS|Java|Rust|Flask,Go|JavaScript|C++|React|HTML,True,0.75,1.0
+535,resume_000535,job_0536,MBA,Information Technology,University of Illinois,2024,Bachelors in Information Technology,C#|Node.js|CSS|Python|Java,Angular|C++|Node.js|CSS,True,0.8,1.0
+536,resume_000536,job_0537,MBA,Artificial Intelligence,Purdue University,2013,Masters in Artificial Intelligence|Research experience required|Publications preferred,Keras|Data Analysis|Ruby|SQL|Tableau|C#|Computer Vision,Python|Tableau|Java|PostgreSQL,True,0.75,1.0
+537,resume_000537,job_0538,MBA,Computer Science,Georgia Tech,2022,Masters in Computer Science|5+ years experience,Ruby|NoSQL|JavaScript,PostgreSQL|Scikit-learn|Ruby,True,0.8,1.0
+538,resume_000538,job_0539,Masters,Computer Science,Columbia University,2010,Masters in Computer Science,HTML|C++|Vue.js|Python|Go,C#|CSS|React|Java,True,0.8,1.0
+539,resume_000539,job_0540,PhD,Software Engineering,Stanford University,2012,Bachelors in Software Engineering|5+ years experience,JavaScript|Python|Tableau,Scikit-learn|Tableau|JavaScript|C#|SQL,True,0.8,1.0
+540,resume_000540,job_0541,Bachelors,Computer Science,Online University,2022,Masters in Computer Science|5+ years experience,Scikit-learn|MongoDB|Go|NoSQL|Data Analysis|PostgreSQL,Ruby|NoSQL|PyTorch|Java|SQL,True,0.75,1.0
+541,resume_000541,job_0542,Bachelors,Finance,NUS Singapore,2006,PhD in Artificial Intelligence|Research experience required|Publications preferred,Rust|Ruby|NLP|PyTorch|Computer Vision,PowerBI|PyTorch|Go|Computer Vision|TensorFlow,True,0.8,1.0
+542,resume_000542,job_0543,Bachelors,Computer Science,Boston University,2010,Bachelors in Information Technology,C#|Rust|Vue.js|Go|React|JavaScript,HTML|Django|Ruby|Java|C#,True,0.8,1.0
+543,resume_000543,job_0544,Bachelors,Chemistry,UCLA,2007,Bachelors in Information Technology,Django|Python|Node.js|Angular|C#,Django|Ruby|C++|C#,True,0.8,1.0
+544,resume_000544,job_0545,Bachelors,Information Technology,NUS Singapore,2010,Bachelors in Information Technology,Python|Java|React,React|Angular|CSS|Python|C#,True,0.8,1.0
+545,resume_000545,job_0546,Bachelors,Finance,Engineering College,2006,Bachelors in Computer Science,Java|Python|CSS|Ruby|Angular|C#|Vue.js,Rust|C++|HTML|Angular,True,0.8,1.0
+546,resume_000546,job_0547,Doctorate,Physics,Georgia Tech,2011,Doctorate in Physics|Research experience required|Publications preferred,Keras|NLP|Python|NoSQL|Computer Vision,SQL|Computer Vision|JavaScript|Tableau|TensorFlow,True,0.8,1.0
+547,resume_000547,job_0548,Bachelors,Computer Science,University of Washington,2017,MBA in Data Science|5+ years experience,TensorFlow|Data Analysis|PyTorch,MongoDB|JavaScript|PyTorch|C#|Tableau,True,0.8,1.0
+548,resume_000548,job_0549,Masters,Computer Science,State University,2023,Masters in Computer Science,HTML|Vue.js|Go|Django|Node.js|Ruby,C#|Flask|Ruby|Node.js,True,0.8,1.0
+549,resume_000549,job_0550,Bachelors,Computer Science,State University,2006,Masters in Computer Science,Angular|Django|CSS|Vue.js|Python|Rust|Flask,Angular|Django|Java,True,0.8,1.0
+550,resume_000550,job_0551,Bachelors,Information Technology,NUS Singapore,2013,Bachelors in Information Technology,Flask|Java|React|Ruby|HTML,Angular|Node.js|C#|Go,True,0.8,1.0
+551,resume_000551,job_0552,Bachelors,Electrical Engineering,Engineering College,2008,Bachelors in Business Administration|5+ years experience,Rust|Go|PostgreSQL|C++|Scikit-learn|NLP,TensorFlow|JavaScript|Scikit-learn,True,0.8,1.0
+552,resume_000552,job_0553,Diploma,Computer Science,Community College,2022,Masters in Computer Science,Angular|Vue.js|CSS|Java,JavaScript|HTML|Flask|Java|Rust,True,0.5,0.75
+553,resume_000553,job_0554,High School,Psychology,NUS Singapore,2015,Doctorate in Computer Science|Research experience required|Publications preferred,Ruby|SQL|NLP|MongoDB|C++,Data Analysis|MongoDB|NoSQL|PostgreSQL|Java,True,0.5,0.75
+554,resume_000554,job_0555,High School,Data Science,University of Illinois,2009,Bachelors in Computer Science,HTML|Ruby|Python|React|JavaScript|Rust|Go,JavaScript|Vue.js|Rust|CSS|Django,True,0.75,1.0
+555,resume_000555,job_0556,BSc,Information Technology,Community College,2018,Bachelors in Information Technology,Java|Ruby|JavaScript|Angular,HTML|Go|Vue.js,True,0.75,1.0
+556,resume_000556,job_0557,Doctorate,Software Engineering,Penn State,2022,Bachelors in Software Engineering|5+ years experience,Scikit-learn|Ruby|Tableau,Data Analysis|PowerBI|Go,True,0.8,1.0
+557,resume_000557,job_0558,Bachelors,Software Engineering,Engineering College,2015,Bachelors in Software Engineering|5+ years experience,PostgreSQL|PyTorch|TensorFlow|Computer Vision|C++,PowerBI|SQL|NoSQL|Rust,True,0.75,1.0
+558,resume_000558,job_0559,Masters,Software Engineering,MIT,2019,Masters in Software Engineering,Ruby|HTML|Rust,HTML|Python|JavaScript|Angular|Flask,True,0.8,1.0
+559,resume_000559,job_0560,PhD,Artificial Intelligence,NYU,2016,Masters in Artificial Intelligence|Research experience required|Publications preferred,Java|PowerBI|TensorFlow|PostgreSQL,Tableau|SQL|MongoDB|Data Analysis,True,0.8,1.0
+560,resume_000560,job_0561,Bachelors,Business Administration,University of Texas,2013,MBA in Business Administration|5+ years experience,Scikit-learn|PostgreSQL|Keras|NLP|PyTorch|C#|C++,TensorFlow|JavaScript|C#,True,0.8,1.0
+561,resume_000561,job_0562,Bachelors,Software Engineering,NYU,2011,Masters in Business Administration|5+ years experience,Data Analysis|C++|SQL|Python|JavaScript|TensorFlow|MongoDB,C#|Python|Go|SQL,True,0.8,1.0
+562,resume_000562,job_0563,Bachelors,Mathematics,NUS Singapore,2006,Masters in Mathematics|Research experience required|Publications preferred,Rust|NLP|Java|Keras|C++,NoSQL|JavaScript|Computer Vision,True,0.75,1.0
+563,resume_000563,job_0564,BSc,Information Technology,Cornell University,2024,Masters in Information Technology,Java|Flask|React|C++|HTML|Ruby,JavaScript|Rust|Angular|Flask|C++,True,0.75,1.0
+564,resume_000564,job_0565,BSc,Information Technology,University of Texas,2011,Masters in Information Technology,Java|Ruby|Go|Django|React|JavaScript,C#|JavaScript|Flask,True,0.75,1.0
+565,resume_000565,job_0566,High School,Psychology,University of Maryland,2009,Bachelors in Information Technology,JavaScript|C++|Django|Node.js|Java|Python|C#,Java|JavaScript|Ruby|Django,True,0.75,1.0
+566,resume_000566,job_0567,Associate,Computer Science,Community College,2021,Bachelors in Computer Science,Python|Go|C#,Go|C#|Django|Node.js|Python,True,0.5,0.75
+567,resume_000567,job_0568,Bachelors,Data Science,Purdue University,2016,Bachelors in Data Science|5+ years experience,MongoDB|TensorFlow|Scikit-learn|PyTorch,C++|MongoDB|C#,True,0.75,1.0
+568,resume_000568,job_0569,Bachelors,Software Engineering,Technical Institute,2006,Masters in Software Engineering|5+ years experience,TensorFlow|JavaScript|PowerBI,NoSQL|TensorFlow|Go|C#,True,0.8,1.0
+569,resume_000569,job_0570,PhD,Data Science,NYU,2021,Masters in Data Science|Research experience required|Publications preferred,Ruby|Go|Keras|TensorFlow|PowerBI,MongoDB|SQL|TensorFlow|Data Analysis,True,0.8,1.0
+570,resume_000570,job_0571,Bachelors,Finance,University of Michigan,2009,Masters in Software Engineering,Node.js|C++|JavaScript|HTML,Flask|Java|React|Ruby,True,0.8,1.0
+571,resume_000571,job_0572,BTech,Software Engineering,NYU,2017,Masters in Software Engineering|5+ years experience,C#|PowerBI|Ruby|MongoDB,PowerBI|C++|PyTorch,True,0.75,1.0
+572,resume_000572,job_0573,High School,Computer Science,Regional University,2008,Masters in Computer Science,Rust|Angular|Python|Flask,Node.js|Java|JavaScript,True,0.75,1.0
+573,resume_000573,job_0574,PhD,Artificial Intelligence,Cambridge University,2020,PhD in Artificial Intelligence|Research experience required|Publications preferred,Data Analysis|PostgreSQL|TensorFlow|NoSQL,Rust|Python|Go,True,0.8,1.0
+574,resume_000574,job_0575,Associate,Computer Science,Online University,2014,Bachelors in Computer Science|5+ years experience,Ruby|Data Analysis|MongoDB|NoSQL|SQL|PostgreSQL,Scikit-learn|MongoDB|PowerBI,True,0.5,0.75
+575,resume_000575,job_0576,Bachelors,Mathematics,Technical Institute,2006,Doctorate in Mathematics|Research experience required|Publications preferred,Data Analysis|C++|JavaScript|NoSQL|SQL|C#|Computer Vision,Data Analysis|Tableau|TensorFlow|MongoDB,True,0.75,1.0
+576,resume_000576,job_0577,Bachelors,Mathematics,Boston University,2013,Bachelors in Information Technology,C++|Flask|Python|JavaScript,C#|Rust|Python|Go,True,0.8,1.0
+577,resume_000577,job_0578,Bachelors,Psychology,Community College,2009,PhD in Computer Science|Research experience required|Publications preferred,PostgreSQL|Data Analysis|PowerBI|Go|Java|Scikit-learn|Rust,PostgreSQL|PowerBI|Rust|NoSQL,True,0.75,1.0
+578,resume_000578,job_0579,Masters,Information Technology,Local Institute,2017,Bachelors in Information Technology,Node.js|Django|JavaScript|C#,Angular|Java|Flask|Django,True,0.8,1.0
+579,resume_000579,job_0580,High School,Finance,Local Institute,2015,Masters in Software Engineering|5+ years experience,Java|Tableau|Scikit-learn,NLP|Computer Vision|C#,True,0.75,1.0
+580,resume_000580,job_0581,Bachelors,Computer Science,University of Illinois,2020,Bachelors in Computer Science,CSS|Django|C++,JavaScript|React|CSS|Rust|C++,True,0.75,1.0
+581,resume_000581,job_0582,Bachelors,Computer Science,UCLA,2010,Masters in Computer Science,JavaScript|Django|Node.js|CSS|C++,C++|Node.js|Go,True,0.8,1.0
+582,resume_000582,job_0583,Bachelors,Biology,State University,2005,Masters in Computer Science|5+ years experience,C++|Tableau|SQL|PostgreSQL,Tableau|PowerBI|Java|JavaScript|PostgreSQL,True,0.8,1.0
+583,resume_000583,job_0584,Bachelors,Software Engineering,University of Maryland,2009,Bachelors in Software Engineering|5+ years experience,PostgreSQL|PyTorch|MongoDB|JavaScript|Rust,Python|PyTorch|C++,True,0.8,1.0
+584,resume_000584,job_0585,Bachelors,Artificial Intelligence,City College,2011,MBA in Software Engineering|5+ years experience,Java|Ruby|Tableau|C#,C++|PowerBI|JavaScript|SQL,True,0.8,1.0
+585,resume_000585,job_0586,Bachelors,Computer Science,NYU,2012,Bachelors in Computer Science,Ruby|JavaScript|Python|HTML|Node.js|Go|Angular,Python|Java|C#|JavaScript|Vue.js,True,0.75,1.0
+586,resume_000586,job_0587,Bachelors,Data Science,Local Institute,2005,Masters in Data Science|5+ years experience,SQL|Java|Scikit-learn|Python,PyTorch|Data Analysis|Go,True,0.8,1.0
+587,resume_000587,job_0588,Associate,Software Engineering,City College,2012,MBA in Software Engineering|5+ years experience,Data Analysis|C++|NLP|Rust,PowerBI|Java|PyTorch|Computer Vision,True,0.5,0.75
+588,resume_000588,job_0589,Bachelors,Mathematics,UCLA,2007,Masters in Computer Science,Java|Rust|Django|Ruby,Django|Ruby|Flask|Angular|CSS,True,0.8,1.0
+589,resume_000589,job_0590,Bachelors,Mathematics,Cornell University,2012,Masters in Mathematics|Research experience required|Publications preferred,Data Analysis|SQL|C#|TensorFlow|Tableau|PowerBI,TensorFlow|C#|Tableau|JavaScript,True,0.75,1.0
+590,resume_000590,job_0591,Associate,Software Engineering,Regional University,2020,Bachelors in Software Engineering,Angular|Django|React,CSS|Python|Go|Rust,True,0.5,0.75
+591,resume_000591,job_0592,Bachelors,Biology,Tech University,2013,Bachelors in Information Technology,Flask|CSS|Rust|JavaScript|Vue.js,Rust|Go|React|Django,True,0.8,1.0
+592,resume_000592,job_0593,High School,Data Science,University of Illinois,2015,Masters in Data Science|5+ years experience,Python|PostgreSQL|Computer Vision|PyTorch|TensorFlow|Ruby,Data Analysis|PyTorch|Ruby|Python,True,0.5,0.75
+593,resume_000593,job_0594,Bachelors,Finance,University of Michigan,2009,Bachelors in Computer Science,Go|Angular|React|Node.js|C++,JavaScript|CSS|HTML|Go|Python,True,0.8,1.0
+594,resume_000594,job_0595,Associate,Computer Science,Regional University,2017,Bachelors in Computer Science,JavaScript|HTML|Python|Node.js|Rust,Vue.js|Java|Django|Flask,True,0.5,0.75
+595,resume_000595,job_0596,High School,Software Engineering,Online University,2009,Masters in Software Engineering|5+ years experience,SQL|PyTorch|TensorFlow|Python|MongoDB|Java|NLP,NoSQL|Java|MongoDB|PostgreSQL,True,0.75,1.0
+596,resume_000596,job_0597,Bachelors,Mathematics,City College,2014,Masters in Information Technology,Flask|JavaScript|CSS|Go|HTML|C++,Django|HTML|Python|Ruby,True,0.8,1.0
+597,resume_000597,job_0598,BSc,Computer Science,Online University,2014,Bachelors in Computer Science,HTML|Angular|Python|Ruby|Node.js,C++|Angular|Node.js|Java,True,0.75,1.0
+598,resume_000598,job_0599,BTech,Computer Science,University of Maryland,2021,Masters in Computer Science,Go|JavaScript|Flask|CSS|Django,Go|JavaScript|HTML|Node.js,True,0.75,1.0
+599,resume_000599,job_0600,Masters,Computer Science,Tech University,2012,Bachelors in Computer Science,Angular|Rust|C#|JavaScript,Ruby|CSS|Go|Node.js|Rust,True,0.8,1.0

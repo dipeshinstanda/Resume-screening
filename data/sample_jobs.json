@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "job_title": "Data Scientist",
+    "requirements": "Bachelor's or Master's degree in Computer Science, Data Science, or related field. Experience with machine learning algorithms.",
+    "required_education": ["Bachelor of Science in Computer Science", "Master of Science in Data Science", "Bachelor of Science in Statistics"]
+  },
+  {
+    "id": 2,
+    "job_title": "Professor of Literature",
+    "requirements": "PhD in Literature or English. Teaching experience preferred.",
+    "required_education": ["PhD in Literature", "PhD in English"]
+  },
+  {
+    "id": 3,
+    "job_title": "Registered Nurse",
+    "requirements": "Bachelor of Science in Nursing or Associate Degree in Nursing. Licensure required.",
+    "required_education": ["Bachelor of Science in Nursing", "Associate Degree in Nursing"]
+  }
+]
